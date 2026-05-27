@@ -1,0 +1,12 @@
+id|first_name|last_name|email|gender|total_marks
+1|Aidan|Heephy|aheephy0@wix.com|Female|663
+2|Lyndell|Kaufman|lkaufman1@aol.com|Female|842
+3|Aile||acurnnok2@vimeo.com|Female|757
+4|Verene|Ainge||Female|729
+5|Hyatt|Bruhnke|hbruhnke4@ibm.com|Male|616
+6|Ray|Groneway||Male|659
+7|Lenka|Downing|ldowning6@paginegialle.it|Female|862
+8||Perfect|hperfect7@psu.edu|Male|844
+9|Helaine|Dun|hdun8@reddit.com|Female|950
+10|Godfry||gklimowski9@umich.edu|Male|
+10|Godfry|Klimowski|gklimowski9@umich.edu|Male|803
