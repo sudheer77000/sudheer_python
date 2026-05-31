@@ -1,4 +1,4 @@
-from account import BankAccount   # importing class
+from python.basics.account import BankAccount   # importing class
 
 # creating object
 name = input("Enter name: ")
