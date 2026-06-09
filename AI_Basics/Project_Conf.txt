@@ -20,4 +20,6 @@ langchain-openrouter
 langchain-huggingface
 langchain-anthropic
 langchain-ollama
-pyyaml
+langchain
+langchain-community
+langchain-openai
