@@ -1,0 +1,67 @@
+{
+	"employees": [
+		{
+			"id": 101,
+			"firstName": "Jane",
+			"lastName": "Doe",
+			"email": "jane.doe@example.com",
+			"phone": "+1-555-0198",
+			"hireDate": "2022-03-15",
+			"isActive": true,
+			"role": {
+				"title": "Senior Software Engineer",
+				"department": "Engineering",
+				"salary": 115000
+			},
+			"skills": [
+				"JavaScript",
+				"Python",
+				"Docker",
+				"AWS"
+			],
+			"managerId": 201
+		},
+		{
+			"id": 102,
+			"firstName": "John",
+			"lastName": "Smith",
+			"email": "john.smith@example.com",
+			"phone": "+1-555-0143",
+			"hireDate": "2024-01-10",
+			"isActive": true,
+			"role": {
+				"title": "Data Analyst",
+				"department": "Business Intelligence",
+				"salary": 85000
+			},
+			"skills": [
+				"SQL",
+				"Tableau",
+				"Excel",
+				"R"
+			],
+			"managerId": 204
+		},
+		{
+			"id": 103,
+			"firstName": "Alex",
+			"lastName": "Jones",
+			"email": "alex.jones@example.com",
+			"phone": "+1-555-0177",
+			"hireDate": "2021-08-22",
+			"isActive": false,
+			"role": {
+				"title": "Product Manager",
+				"department": "Product",
+				"salary": 125000
+			},
+			"skills": [
+				"Agile",
+				"Scrum",
+				"Roadmapping",
+				"Jira"
+			],
+			"managerId": 201
+		}
+	]
+}
