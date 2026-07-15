@@ -31,3 +31,6 @@ docx2txt
 jq 
 unstructured
 markdown
+pymupdf
+pdfplumber
+tabulate
