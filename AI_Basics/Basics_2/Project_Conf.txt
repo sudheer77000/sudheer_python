@@ -40,3 +40,4 @@ accelerate==0.34.2
 bitsandbytes
 google-genai
 llama-parse
+faiss-cpu
