@@ -41,3 +41,4 @@ bitsandbytes
 google-genai
 llama-parse
 faiss-cpu
+llama-cloud>=1.0
