@@ -1,0 +1,2573 @@
+{
+  "job": {
+    "id": "pjb-0sfzem103o8564lyf46ba2wunymn",
+    "project_id": "a987a6d7-1e2f-4436-bdf3-556709102d85",
+    "status": "COMPLETED",
+    "created_at": "2026-07-24 21:15:36.078363+00:00",
+    "error_message": null,
+    "name": "3_sudheer_gym_llamaparse_test.pdf",
+    "tier": "agentic",
+    "updated_at": "2026-07-24 21:15:54.431423+00:00",
+    "user_metadata": null
+  },
+  "forms": null,
+  "images_content_metadata": {
+    "images": [
+      {
+        "filename": "img_p1_1.png",
+        "index": 0,
+        "bbox": {
+          "h": 236,
+          "w": 497,
+          "x": 49,
+          "y": 309
+        },
+        "category": "embedded",
+        "content_type": "image/png",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/img_p1_1.png?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=SP9WP8HNzYFheqgWprArRri0lsY%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_1.jpg",
+        "index": 1,
+        "bbox": {
+          "h": 842,
+          "w": 595,
+          "x": 0,
+          "y": 0
+        },
+        "category": "screenshot",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_1.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=AgE919vtFcrumxtypTPbSDslh5c%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_1_chart_1_v2.jpg",
+        "index": 2,
+        "bbox": {
+          "h": 255,
+          "w": 511,
+          "x": 42,
+          "y": 302
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_1_chart_1_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=xvfxRvN60fZfG7p0Y1yieokzwlc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "img_p2_1.png",
+        "index": 3,
+        "bbox": {
+          "h": 217,
+          "w": 497,
+          "x": 49,
+          "y": 434
+        },
+        "category": "embedded",
+        "content_type": "image/png",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/img_p2_1.png?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=vTe75uM%2B0AHe6UA%2BPw23V8Og%2BJc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_2.jpg",
+        "index": 4,
+        "bbox": {
+          "h": 842,
+          "w": 595,
+          "x": 0,
+          "y": 0
+        },
+        "category": "screenshot",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=uaE0lYq%2BSUKlFzSb%2FEkHeYGedRQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_2_table_2_v2.jpg",
+        "index": 5,
+        "bbox": {
+          "h": 93,
+          "w": 513,
+          "x": 41,
+          "y": 702
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_2_table_2_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=xLgoeP%2FxJTvv4ibohKSAUcGp%2BJw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_2_table_1_v2.jpg",
+        "index": 6,
+        "bbox": {
+          "h": 205,
+          "w": 513,
+          "x": 41,
+          "y": 181
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_2_table_1_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=jAne4JvVfsXgMvfDbh5IPrDkbLQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_2_chart_1_v2.jpg",
+        "index": 7,
+        "bbox": {
+          "h": 234,
+          "w": 510,
+          "x": 42,
+          "y": 428
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_2_chart_1_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=1%2FJ7oN2kh%2FGE7Cz9JHZO%2BuvEM04%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_3.jpg",
+        "index": 8,
+        "bbox": {
+          "h": 842,
+          "w": 595,
+          "x": 0,
+          "y": 0
+        },
+        "category": "screenshot",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_3.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=VuwTtS1eyW13kXIVzeUMpRDxCB0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_3_table_1_v2.jpg",
+        "index": 9,
+        "bbox": {
+          "h": 46,
+          "w": 511,
+          "x": 42,
+          "y": 33
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_3_table_1_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=x39EnxD%2FsUqvoaWIWOe%2Fti0QldU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_4.jpg",
+        "index": 10,
+        "bbox": {
+          "h": 842,
+          "w": 595,
+          "x": 0,
+          "y": 0
+        },
+        "category": "screenshot",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_4.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=oqxlfBSX9LVQtOqWbHUGgeY1IVU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      },
+      {
+        "filename": "page_4_table_1_v2.jpg",
+        "index": 11,
+        "bbox": {
+          "h": 173,
+          "w": 513,
+          "x": 41,
+          "y": 167
+        },
+        "category": "layout",
+        "content_type": "image/jpeg",
+        "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/page_4_table_1_v2.jpg?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=n%2BVG8ATMhpIV5ldDfwykPmtftqQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+      }
+    ],
+    "total_count": 12
+  },
+  "items": {
+    "pages": [
+      {
+        "items": [
+          {
+            "level": 1,
+            "md": "# SUDHEER GYM",
+            "value": "SUDHEER GYM",
+            "bbox": [
+              {
+                "h": 18.0,
+                "w": 136.98,
+                "x": 58.27,
+                "y": 50.4,
+                "confidence": 1.0,
+                "end_index": 12,
+                "label": "paragraph_title",
+                "start_index": 2
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "**Doc ID:** SG-PERF-2026\n**Date:** Q2 2026\n**Target:** LlamaParse Test Suite",
+            "value": "Doc ID: SG-PERF-2026\nDate: Q2 2026\nTarget: LlamaParse Test Suite",
+            "bbox": [
+              {
+                "h": 21.48,
+                "w": 91.27,
+                "x": 445.84,
+                "y": 51.43,
+                "confidence": 0.86,
+                "end_index": 23,
+                "label": "key-value-region",
+                "start_index": 0
+              },
+              {
+                "h": 9.0,
+                "w": 59.0,
+                "x": 477.97,
+                "y": 51.43,
+                "confidence": 1.0,
+                "end_index": 23,
+                "label": "key-value-region",
+                "start_index": 12
+              },
+              {
+                "h": 9.15,
+                "w": 56.4,
+                "x": 480.71,
+                "y": 63.76,
+                "confidence": 0.86,
+                "end_index": 41,
+                "label": "key-value-region",
+                "start_index": 25
+              },
+              {
+                "h": 9.1,
+                "w": 118.19,
+                "x": 421.57,
+                "y": 76.08,
+                "confidence": 0.86,
+                "end_index": 75,
+                "label": "key-value-region",
+                "start_index": 43
+              },
+              {
+                "h": 9.1,
+                "w": 87.58,
+                "x": 452.19,
+                "y": 76.08,
+                "confidence": 1.0,
+                "end_index": 75,
+                "label": "text",
+                "start_index": 55
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "md": "Annual Performance & Expansion Analytics Report",
+            "value": "Annual Performance & Expansion Analytics Report",
+            "bbox": [
+              {
+                "h": 10.03,
+                "w": 214.77,
+                "x": 58.27,
+                "y": 77.87,
+                "confidence": 0.93,
+                "end_index": 46,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 10.661561307907105,
+                "w": 216.53400934472293,
+                "x": 57.388692424069276,
+                "y": 76.81339055393053,
+                "confidence": 0.93,
+                "label": "text"
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "level": 1,
+            "md": "# 1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS",
+            "value": "1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS",
+            "bbox": [
+              {
+                "h": 10.4,
+                "w": 357.07,
+                "x": 42.19,
+                "y": 115.02,
+                "confidence": 0.97,
+                "end_index": 47,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "This report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for **Sudheer Gym Franchise Operations**. The layout is optimized to benchmark multimodal PDF parsing engines, table structure extractors, and OCR vision models.",
+            "value": "This report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for Sudheer Gym Franchise Operations. The layout is optimized to benchmark multimodal PDF parsing engines, table structure extractors, and OCR vision models.",
+            "bbox": [
+              {
+                "h": 36.53,
+                "w": 490.17,
+                "x": 41.48,
+                "y": 146.24,
+                "confidence": 0.99,
+                "end_index": 274,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "csv": "\"12,450\",\"8 Branches\",\"84.2%\",\"$108,000\"\n\"ACTIVE MEMBERS\",\"OPERATIONAL OUTLETS\",\"RETENTION RATE\",\"Q2 2026 REVENUE\"",
+            "html": "<table>\n  <thead>\n    <tr>\n      <th>12,450</th>\n      <th>8 Branches</th>\n      <th>84.2%</th>\n      <th>$108,000</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ACTIVE MEMBERS</td>\n      <td>OPERATIONAL OUTLETS</td>\n      <td>RETENTION RATE</td>\n      <td>Q2 2026 REVENUE</td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| 12,450         | 8 Branches          | 84.2%          | $108,000        |\n| -------------- | ------------------- | -------------- | --------------- |\n| ACTIVE MEMBERS | OPERATIONAL OUTLETS | RETENTION RATE | Q2 2026 REVENUE |",
+            "rows": [
+              [
+                "12,450",
+                "8 Branches",
+                "84.2%",
+                "$108,000"
+              ],
+              [
+                "ACTIVE MEMBERS",
+                "OPERATIONAL OUTLETS",
+                "RETENTION RATE",
+                "Q2 2026 REVENUE"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 29.47,
+                "w": 453.6,
+                "x": 70.84,
+                "y": 213.84,
+                "confidence": 0.75,
+                "end_index": 226,
+                "label": "key-value-region",
+                "start_index": 0
+              },
+              {
+                "h": 7.99,
+                "w": 34.78,
+                "x": 502.63,
+                "y": 62.98,
+                "confidence": 1.0,
+                "end_index": 216,
+                "label": "key-value-region",
+                "start_index": 210
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 2 '84.2%' expects numeric, got 'RETENTION RATE' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "col 3 '$108,000' expects numeric, got 'Q2 2026 REVENUE' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "layout detected [text, chart, paragraph_title, footer, key-value-region] but no table/form",
+                "type": "layout_lvm_disagreement"
+              },
+              {
+                "details": "col 3 '$108,000': 1/1 (100%) have interior whitespace",
+                "type": "possible_merged_columns"
+              },
+              {
+                "details": "2 tables on page",
+                "type": "multi_table_page"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "level": 1,
+            "md": "# 2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY",
+            "value": "2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY",
+            "bbox": [
+              {
+                "h": 10.6,
+                "w": 374.95,
+                "x": 41.54,
+                "y": 272.46,
+                "confidence": 0.96,
+                "end_index": 49,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "Sudheer Gym: Quarterly Active Membership & Revenue Trajectory",
+            "value": "Sudheer Gym: Quarterly Active Membership & Revenue Trajectory",
+            "bbox": [
+              {
+                "h": 12.53,
+                "w": 327.31,
+                "x": 139.15,
+                "y": 314.89,
+                "confidence": 0.75,
+                "end_index": 60,
+                "label": "chart",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "csv": "\"Quarter\",\"Active Members\",\"Revenue ($k)\"\n\"Q1 2025\",\"8,200\",\"$45k\"\n\"Q2 2025\",\"9,100\",\"$58k\"\n\"Q3 2025\",\"10,300\",\"$72k\"\n\"Q4 2025\",\"11,100\",\"$85k\"\n\"Q1 2026\",\"11,800\",\"$92k\"\n\"Q2 2026\",\"12,450\",\"$108k\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Quarter</th>\n        <th>Active Members</th>\n        <th>Revenue ($k)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Q1 2025</td>\n        <td>8,200</td>\n        <td>$45k</td>\n    </tr>\n    <tr>\n        <td>Q2 2025</td>\n        <td>9,100</td>\n        <td>$58k</td>\n    </tr>\n    <tr>\n        <td>Q3 2025</td>\n        <td>10,300</td>\n        <td>$72k</td>\n    </tr>\n    <tr>\n        <td>Q4 2025</td>\n        <td>11,100</td>\n        <td>$85k</td>\n    </tr>\n    <tr>\n        <td>Q1 2026</td>\n        <td>11,800</td>\n        <td>$92k</td>\n    </tr>\n    <tr>\n        <td>Q2 2026</td>\n        <td>12,450</td>\n        <td>$108k</td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Quarter | Active Members | Revenue ($k) |\n| ------- | -------------- | ------------ |\n| Q1 2025 | 8,200          | $45k         |\n| Q2 2025 | 9,100          | $58k         |\n| Q3 2025 | 10,300         | $72k         |\n| Q4 2025 | 11,100         | $85k         |\n| Q1 2026 | 11,800         | $92k         |\n| Q2 2026 | 12,450         | $108k        |",
+            "rows": [
+              [
+                "Quarter",
+                "Active Members",
+                "Revenue ($k)"
+              ],
+              [
+                "Q1 2025",
+                "8,200",
+                "$45k"
+              ],
+              [
+                "Q2 2025",
+                "9,100",
+                "$58k"
+              ],
+              [
+                "Q3 2025",
+                "10,300",
+                "$72k"
+              ],
+              [
+                "Q4 2025",
+                "11,100",
+                "$85k"
+              ],
+              [
+                "Q1 2026",
+                "11,800",
+                "$92k"
+              ],
+              [
+                "Q2 2026",
+                "12,450",
+                "$108k"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 12.53,
+                "w": 327.31,
+                "x": 139.15,
+                "y": 314.89,
+                "confidence": 0.5,
+                "end_index": 350,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 165.52,
+                "w": 111.28,
+                "x": 247.72,
+                "y": 367.4,
+                "confidence": 0.5,
+                "end_index": 252,
+                "label": "text",
+                "start_index": 2
+              },
+              {
+                "h": 181.25,
+                "w": 100.42,
+                "x": 56.65,
+                "y": 339.68,
+                "confidence": 0.5,
+                "end_index": 120,
+                "label": "text",
+                "start_index": 90
+              },
+              {
+                "h": 180.71,
+                "w": 89.02,
+                "x": 449.1,
+                "y": 340.22,
+                "confidence": 0.5,
+                "end_index": 316,
+                "label": "text",
+                "start_index": 91
+              },
+              {
+                "h": 130.87,
+                "w": 43.97,
+                "x": 180.41,
+                "y": 390.06,
+                "confidence": 0.5,
+                "end_index": 164,
+                "label": "text",
+                "start_index": 134
+              },
+              {
+                "h": 161.79,
+                "w": 43.97,
+                "x": 381.79,
+                "y": 359.14,
+                "confidence": 0.5,
+                "end_index": 296,
+                "label": "text",
+                "start_index": 266
+              },
+              {
+                "h": 254.5183899817259,
+                "w": 511.29385344098966,
+                "x": 41.67570390352995,
+                "y": 301.70395943641665,
+                "confidence": 0.5,
+                "label": "chart"
+              },
+              {
+                "h": 254.5183899817259,
+                "w": 511.29385344098966,
+                "x": 41.67570390352995,
+                "y": 301.70395943641665,
+                "confidence": 0.5,
+                "label": "chart"
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 2 'Revenue ($k)' expects numeric, got '$45k' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "layout detected [text, chart, paragraph_title, footer, key-value-region] but no table/form",
+                "type": "layout_lvm_disagreement"
+              },
+              {
+                "details": "col 0 'Quarter': 6/6 (100%) have interior whitespace",
+                "type": "possible_merged_columns"
+              },
+              {
+                "details": "2 tables on page",
+                "type": "multi_table_page"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "level": 1,
+            "md": "# 3. REGIONAL FACILITY OVERVIEW",
+            "value": "3. REGIONAL FACILITY OVERVIEW",
+            "bbox": [
+              {
+                "h": 10.4,
+                "w": 211.64,
+                "x": 41.64,
+                "y": 569.25,
+                "confidence": 0.97,
+                "end_index": 30,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "level": 2,
+            "md": "## Operating Highlights",
+            "value": "Operating Highlights",
+            "bbox": [
+              {
+                "h": 10.12,
+                "w": 98.99,
+                "x": 47.02,
+                "y": 606.47,
+                "confidence": 0.98,
+                "end_index": 22,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "items": [
+              {
+                "md": "**Peak Attendance:** Morning slot (06:00 - 09:00) and Evening slot (17:00 - 21:00) represent 68% of total daily traffic.",
+                "value": "Peak Attendance: Morning slot (06:00 - 09:00) and Evening slot (17:00 - 21:00) represent 68% of total daily traffic.",
+                "bbox": [
+                  {
+                    "h": 37.55,
+                    "w": 217.74,
+                    "x": 60.52,
+                    "y": 625.49,
+                    "confidence": 0.99,
+                    "end_index": 119,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Member Growth:** +18% Year-over-Year growth across all active branches.",
+                "value": "Member Growth: +18% Year-over-Year growth across all active branches.",
+                "bbox": [
+                  {
+                    "h": 22.36,
+                    "w": 234.49,
+                    "x": 54.03,
+                    "y": 668.93,
+                    "confidence": 0.99,
+                    "end_index": 72,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Personal Training:** PT session adoption increased by 24% following the introduction of Tier-based Gold memberships.",
+                "value": "Personal Training: PT session adoption increased by 24% following the introduction of Tier-based Gold memberships.",
+                "bbox": [
+                  {
+                    "h": 37.55,
+                    "w": 227.62,
+                    "x": 60.52,
+                    "y": 700.36,
+                    "confidence": 0.99,
+                    "end_index": 117,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "* **Peak Attendance:** Morning slot (06:00 - 09:00) and Evening slot (17:00 - 21:00) represent 68% of total daily traffic.\n\n* **Member Growth:** +18% Year-over-Year growth across all active branches.\n\n* **Personal Training:** PT session adoption increased by 24% following the introduction of Tier-based Gold memberships.",
+            "ordered": false,
+            "bbox": [
+              {
+                "h": 112.42,
+                "w": 234.49,
+                "x": 54.03,
+                "y": 625.49,
+                "confidence": 0.99,
+                "end_index": 320,
+                "label": "list",
+                "start_index": 0
+              }
+            ],
+            "type": "list"
+          },
+          {
+            "level": 2,
+            "md": "## Operational Focus Areas",
+            "value": "Operational Focus Areas",
+            "bbox": [
+              {
+                "h": 10.12,
+                "w": 118.42,
+                "x": 300.32,
+                "y": 606.47,
+                "confidence": 0.98,
+                "end_index": 25,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "items": [
+              {
+                "md": "**Smart Facility Tech:** Integrated RFID keycard access and automated locker systems installed across 100% of branches.",
+                "value": "Smart Facility Tech: Integrated RFID keycard access and automated locker systems installed across 100% of branches.",
+                "bbox": [
+                  {
+                    "h": 36.03,
+                    "w": 240.77,
+                    "x": 307.03,
+                    "y": 624.51,
+                    "confidence": 0.99,
+                    "end_index": 118,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Mobile App Engagement:** 8,900 active users booking group classes via the Sudheer Gym iOS/Android application.",
+                "value": "Mobile App Engagement: 8,900 active users booking group classes via the Sudheer Gym iOS/Android application.",
+                "bbox": [
+                  {
+                    "h": 37.55,
+                    "w": 229.38,
+                    "x": 313.82,
+                    "y": 669.81,
+                    "confidence": 0.99,
+                    "end_index": 111,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Equipment Refresh:** $120,000 invested in new custom rack systems and Olympic plates.",
+                "value": "Equipment Refresh: $120,000 invested in new custom rack systems and Olympic plates.",
+                "bbox": [
+                  {
+                    "h": 24.17,
+                    "w": 232.65,
+                    "x": 313.82,
+                    "y": 713.74,
+                    "confidence": 0.99,
+                    "end_index": 86,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "* **Smart Facility Tech:** Integrated RFID keycard access and automated locker systems installed across 100% of branches.\n\n* **Mobile App Engagement:** 8,900 active users booking group classes via the Sudheer Gym iOS/Android application.\n\n* **Equipment Refresh:** $120,000 invested in new custom rack systems and Olympic plates.",
+            "ordered": false,
+            "bbox": [
+              {
+                "h": 113.4,
+                "w": 240.77,
+                "x": 307.03,
+                "y": 624.51,
+                "confidence": 0.99,
+                "end_index": 327,
+                "label": "list",
+                "start_index": 0
+              }
+            ],
+            "type": "list"
+          },
+          {
+            "md": "**LlamaParse Test Note (Page 1):** Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation, and two-column layout parsing.",
+            "value": "LlamaParse Test Note (Page 1): Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation, and two-column layout parsing.",
+            "bbox": [
+              {
+                "h": 19.6,
+                "w": 486.55,
+                "x": 54.52,
+                "y": 757.87,
+                "confidence": 0.98,
+                "end_index": 174,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "items": [
+              {
+                "md": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "value": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "bbox": [
+                  {
+                    "h": 9.06,
+                    "w": 216.11,
+                    "x": 41.56,
+                    "y": 820.6,
+                    "confidence": 0.96,
+                    "end_index": 52,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "\\<page_number>Page 1 of 4\\</page_number>",
+                "value": "<page_number>Page 1 of 4</page_number>",
+                "bbox": [
+                  {
+                    "h": 8.78,
+                    "w": 41.34,
+                    "x": 511.69,
+                    "y": 820.69,
+                    "confidence": 0.97,
+                    "end_index": 39,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 1 of 4</page_number>",
+            "bbox": [
+              {
+                "h": 9.06,
+                "w": 511.48,
+                "x": 41.56,
+                "y": 820.6
+              }
+            ],
+            "type": "footer"
+          }
+        ],
+        "page_height": 841.89,
+        "page_number": 1,
+        "page_width": 595.276,
+        "success": true
+      },
+      {
+        "items": [
+          {
+            "level": 1,
+            "md": "# SUDHEER GYM",
+            "value": "SUDHEER GYM",
+            "bbox": [
+              {
+                "h": 15.22,
+                "w": 137.06,
+                "x": 57.83,
+                "y": 49.49,
+                "confidence": 0.92,
+                "end_index": 12,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "**Section:** Operations\n**Version:** 2.4-B",
+            "value": "Section: Operations\nVersion: 2.4-B",
+            "bbox": [
+              {
+                "h": 20.96,
+                "w": 78.38,
+                "x": 459.13,
+                "y": 56.23,
+                "confidence": 0.68,
+                "end_index": 41,
+                "label": "key-value-region",
+                "start_index": 0
+              },
+              {
+                "h": 9.0,
+                "w": 76.97,
+                "x": 459.64,
+                "y": 57.6,
+                "confidence": 0.68,
+                "end_index": 22,
+                "label": "key-value-region",
+                "start_index": 0
+              },
+              {
+                "h": 9.0,
+                "w": 59.02,
+                "x": 480.67,
+                "y": 70.02,
+                "confidence": 1.0,
+                "end_index": 41,
+                "label": "key-value-region",
+                "start_index": 24
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "md": "Page 2: Membership Breakdown & Operational Utilization",
+            "value": "Page 2: Membership Breakdown & Operational Utilization",
+            "bbox": [
+              {
+                "h": 10.17,
+                "w": 241.28,
+                "x": 58.27,
+                "y": 77.79,
+                "confidence": 0.89,
+                "end_index": 53,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 10.827811666364259,
+                "w": 242.50826383574113,
+                "x": 57.70585745803169,
+                "y": 76.741130555609,
+                "confidence": 0.89,
+                "label": "text"
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "level": 2,
+            "md": "## 4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX",
+            "value": "4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX",
+            "bbox": [
+              {
+                "h": 10.51,
+                "w": 342.35,
+                "x": 41.48,
+                "y": 115.01,
+                "confidence": 0.97,
+                "end_index": 48,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "Detailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance indicators.",
+            "value": "Detailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance indicators.",
+            "bbox": [
+              {
+                "h": 22.79,
+                "w": 470.1,
+                "x": 41.56,
+                "y": 145.97,
+                "confidence": 0.98,
+                "end_index": 123,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "csv": "\"Plan Tier\",\"Monthly Fee\",\"Active Members\",\"Personal Training\",\"Locker & Sauna Access\",\"Renewal Rate\",\"Status\"\n\"Basic Tier\",\"$29.99 / mo\",\"4,200\",\"Not Included\",\"Standard Locker Only\",\"68.5%\",\"Active\"\n\"Silver Tier\",\"$49.99 / mo\",\"5,150\",\"1 Session / Month\",\"Reserved Locker\",\"82.1%\",\"Popular\"\n\"Gold Tier\",\"$79.99 / mo\",\"2,100\",\"4 Sessions / Month\",\"VIP Locker + Sauna + Cold Plunge\",\"91.4%\",\"High Margin\"\n\"Corporate Plan\",\"$39.99 / mo\",\"1,000\",\"Group Sessions\",\"Standard Access\",\"88.0%\",\"B2B Contract\"\n\"Student Pass\",\"$19.99 / mo\",\"850\",\"Discount Add-on\",\"Standard Access\",\"61.2%\",\"Discounted\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Plan Tier</th>\n        <th>Monthly Fee</th>\n        <th>Active Members</th>\n        <th>Personal Training</th>\n        <th>Locker &#x26; Sauna Access</th>\n        <th>Renewal Rate</th>\n        <th>Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Basic Tier</td>\n        <td>$29.99 / mo</td>\n        <td>4,200</td>\n        <td>Not Included</td>\n        <td>Standard Locker Only</td>\n        <td>68.5%</td>\n        <td>Active</td>\n    </tr>\n    <tr>\n        <td>Silver Tier</td>\n        <td>$49.99 / mo</td>\n        <td>5,150</td>\n        <td>1 Session / Month</td>\n        <td>Reserved Locker</td>\n        <td>82.1%</td>\n        <td>Popular</td>\n    </tr>\n    <tr>\n        <td>Gold Tier</td>\n        <td>$79.99 / mo</td>\n        <td>2,100</td>\n        <td>4 Sessions / Month</td>\n        <td>VIP Locker + Sauna + Cold Plunge</td>\n        <td>91.4%</td>\n        <td>High Margin</td>\n    </tr>\n    <tr>\n        <td>Corporate Plan</td>\n        <td>$39.99 / mo</td>\n        <td>1,000</td>\n        <td>Group Sessions</td>\n        <td>Standard Access</td>\n        <td>88.0%</td>\n        <td>B2B Contract</td>\n    </tr>\n    <tr>\n        <td>Student Pass</td>\n        <td>$19.99 / mo</td>\n        <td>850</td>\n        <td>Discount Add-on</td>\n        <td>Standard Access</td>\n        <td>61.2%</td>\n        <td>Discounted</td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Plan Tier      | Monthly Fee | Active Members | Personal Training  | Locker & Sauna Access            | Renewal Rate | Status       |\n| -------------- | ----------- | -------------- | ------------------ | -------------------------------- | ------------ | ------------ |\n| Basic Tier     | $29.99 / mo | 4,200          | Not Included       | Standard Locker Only             | 68.5%        | Active       |\n| Silver Tier    | $49.99 / mo | 5,150          | 1 Session / Month  | Reserved Locker                  | 82.1%        | Popular      |\n| Gold Tier      | $79.99 / mo | 2,100          | 4 Sessions / Month | VIP Locker + Sauna + Cold Plunge | 91.4%        | High Margin  |\n| Corporate Plan | $39.99 / mo | 1,000          | Group Sessions     | Standard Access                  | 88.0%        | B2B Contract |\n| Student Pass   | $19.99 / mo | 850            | Discount Add-on    | Standard Access                  | 61.2%        | Discounted   |",
+            "rows": [
+              [
+                "Plan Tier",
+                "Monthly Fee",
+                "Active Members",
+                "Personal Training",
+                "Locker & Sauna Access",
+                "Renewal Rate",
+                "Status"
+              ],
+              [
+                "Basic Tier",
+                "$29.99 / mo",
+                "4,200",
+                "Not Included",
+                "Standard Locker Only",
+                "68.5%",
+                "Active"
+              ],
+              [
+                "Silver Tier",
+                "$49.99 / mo",
+                "5,150",
+                "1 Session / Month",
+                "Reserved Locker",
+                "82.1%",
+                "Popular"
+              ],
+              [
+                "Gold Tier",
+                "$79.99 / mo",
+                "2,100",
+                "4 Sessions / Month",
+                "VIP Locker + Sauna + Cold Plunge",
+                "91.4%",
+                "High Margin"
+              ],
+              [
+                "Corporate Plan",
+                "$39.99 / mo",
+                "1,000",
+                "Group Sessions",
+                "Standard Access",
+                "88.0%",
+                "B2B Contract"
+              ],
+              [
+                "Student Pass",
+                "$19.99 / mo",
+                "850",
+                "Discount Add-on",
+                "Standard Access",
+                "61.2%",
+                "Discounted"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 9.0,
+                "w": 36.22,
+                "x": 49.27,
+                "y": 195.32,
+                "confidence": 0.5,
+                "end_index": 10,
+                "label": "table",
+                "start_index": 2
+              },
+              {
+                "h": 21.43,
+                "w": 41.0,
+                "x": 49.27,
+                "y": 324.03,
+                "confidence": 0.5,
+                "end_index": 690,
+                "label": "table",
+                "start_index": 2
+              },
+              {
+                "h": 9.0,
+                "w": 41.02,
+                "x": 49.27,
+                "y": 229.35,
+                "confidence": 0.5,
+                "end_index": 278,
+                "label": "table",
+                "start_index": 7
+              },
+              {
+                "h": 9.1,
+                "w": 41.35,
+                "x": 49.27,
+                "y": 262.9,
+                "confidence": 0.5,
+                "end_index": 415,
+                "label": "table",
+                "start_index": 7
+              },
+              {
+                "h": 9.1,
+                "w": 37.73,
+                "x": 49.27,
+                "y": 296.55,
+                "confidence": 0.5,
+                "end_index": 549,
+                "label": "table",
+                "start_index": 7
+              },
+              {
+                "h": 21.33,
+                "w": 33.0,
+                "x": 116.17,
+                "y": 189.16,
+                "confidence": 0.5,
+                "end_index": 29,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.78,
+                "w": 30.3,
+                "x": 116.17,
+                "y": 222.83,
+                "confidence": 0.5,
+                "end_index": 296,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.77,
+                "w": 30.3,
+                "x": 116.17,
+                "y": 256.48,
+                "confidence": 0.5,
+                "end_index": 432,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 21.43,
+                "w": 41.58,
+                "x": 241.37,
+                "y": 256.73,
+                "confidence": 0.5,
+                "end_index": 466,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.78,
+                "w": 30.3,
+                "x": 116.17,
+                "y": 290.13,
+                "confidence": 0.5,
+                "end_index": 568,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 21.43,
+                "w": 45.83,
+                "x": 241.37,
+                "y": 290.38,
+                "confidence": 0.5,
+                "end_index": 603,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.77,
+                "w": 30.3,
+                "x": 116.17,
+                "y": 323.78,
+                "confidence": 0.5,
+                "end_index": 704,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.77,
+                "w": 30.3,
+                "x": 116.17,
+                "y": 357.43,
+                "confidence": 0.5,
+                "end_index": 840,
+                "label": "table",
+                "start_index": 19
+              },
+              {
+                "h": 20.42,
+                "w": 53.49,
+                "x": 241.37,
+                "y": 357.79,
+                "confidence": 0.5,
+                "end_index": 877,
+                "label": "table",
+                "start_index": 20
+              },
+              {
+                "h": 21.33,
+                "w": 37.0,
+                "x": 172.82,
+                "y": 189.16,
+                "confidence": 0.5,
+                "end_index": 46,
+                "label": "table",
+                "start_index": 33
+              },
+              {
+                "h": 8.0,
+                "w": 22.0,
+                "x": 493.54,
+                "y": 229.86,
+                "confidence": 0.5,
+                "end_index": 38,
+                "label": "table",
+                "start_index": 33
+              },
+              {
+                "h": 21.33,
+                "w": 36.0,
+                "x": 241.37,
+                "y": 189.16,
+                "confidence": 0.5,
+                "end_index": 66,
+                "label": "table",
+                "start_index": 50
+              },
+              {
+                "h": 9.15,
+                "w": 96.43,
+                "x": 315.42,
+                "y": 195.22,
+                "confidence": 0.5,
+                "end_index": 91,
+                "label": "table",
+                "start_index": 71
+              },
+              {
+                "h": 9.1,
+                "w": 81.42,
+                "x": 315.42,
+                "y": 229.25,
+                "confidence": 0.5,
+                "end_index": 362,
+                "label": "table",
+                "start_index": 71
+              },
+              {
+                "h": 9.0,
+                "w": 63.68,
+                "x": 315.42,
+                "y": 263.0,
+                "confidence": 0.5,
+                "end_index": 486,
+                "label": "table",
+                "start_index": 71
+              },
+              {
+                "h": 21.43,
+                "w": 82.72,
+                "x": 315.42,
+                "y": 290.38,
+                "confidence": 0.5,
+                "end_index": 646,
+                "label": "table",
+                "start_index": 71
+              },
+              {
+                "h": 9.1,
+                "w": 63.77,
+                "x": 315.42,
+                "y": 330.2,
+                "confidence": 0.5,
+                "end_index": 350,
+                "label": "table",
+                "start_index": 86
+              },
+              {
+                "h": 9.1,
+                "w": 63.77,
+                "x": 315.42,
+                "y": 363.85,
+                "confidence": 0.5,
+                "end_index": 350,
+                "label": "table",
+                "start_index": 86
+              },
+              {
+                "h": 21.33,
+                "w": 34.0,
+                "x": 428.04,
+                "y": 189.16,
+                "confidence": 0.5,
+                "end_index": 117,
+                "label": "table",
+                "start_index": 106
+              },
+              {
+                "h": 9.0,
+                "w": 26.0,
+                "x": 489.04,
+                "y": 195.22,
+                "confidence": 0.5,
+                "end_index": 126,
+                "label": "table",
+                "start_index": 121
+              },
+              {
+                "h": 9.0,
+                "w": 21.0,
+                "x": 172.82,
+                "y": 229.4,
+                "confidence": 0.5,
+                "end_index": 309,
+                "label": "table",
+                "start_index": 305
+              },
+              {
+                "h": 9.0,
+                "w": 47.54,
+                "x": 241.37,
+                "y": 229.35,
+                "confidence": 0.5,
+                "end_index": 333,
+                "label": "table",
+                "start_index": 322
+              },
+              {
+                "h": 9.0,
+                "w": 24.0,
+                "x": 428.04,
+                "y": 229.4,
+                "confidence": 0.5,
+                "end_index": 381,
+                "label": "table",
+                "start_index": 378
+              },
+              {
+                "h": 9.0,
+                "w": 21.0,
+                "x": 172.82,
+                "y": 263.05,
+                "confidence": 0.5,
+                "end_index": 445,
+                "label": "table",
+                "start_index": 441
+              },
+              {
+                "h": 9.0,
+                "w": 24.0,
+                "x": 428.04,
+                "y": 263.05,
+                "confidence": 0.5,
+                "end_index": 517,
+                "label": "table",
+                "start_index": 514
+              },
+              {
+                "h": 8.0,
+                "w": 28.0,
+                "x": 493.54,
+                "y": 263.51,
+                "confidence": 0.5,
+                "end_index": 535,
+                "label": "table",
+                "start_index": 529
+              },
+              {
+                "h": 9.0,
+                "w": 21.0,
+                "x": 172.82,
+                "y": 296.7,
+                "confidence": 0.5,
+                "end_index": 581,
+                "label": "table",
+                "start_index": 577
+              },
+              {
+                "h": 9.0,
+                "w": 59.93,
+                "x": 241.37,
+                "y": 330.2,
+                "confidence": 0.5,
+                "end_index": 734,
+                "label": "table",
+                "start_index": 596
+              },
+              {
+                "h": 9.0,
+                "w": 24.0,
+                "x": 428.04,
+                "y": 296.7,
+                "confidence": 0.5,
+                "end_index": 653,
+                "label": "table",
+                "start_index": 650
+              },
+              {
+                "h": 8.0,
+                "w": 43.67,
+                "x": 493.54,
+                "y": 297.16,
+                "confidence": 0.5,
+                "end_index": 675,
+                "label": "table",
+                "start_index": 665
+              },
+              {
+                "h": 9.0,
+                "w": 21.0,
+                "x": 172.82,
+                "y": 330.35,
+                "confidence": 0.5,
+                "end_index": 717,
+                "label": "table",
+                "start_index": 713
+              },
+              {
+                "h": 9.0,
+                "w": 24.0,
+                "x": 428.04,
+                "y": 330.35,
+                "confidence": 0.5,
+                "end_index": 789,
+                "label": "table",
+                "start_index": 786
+              },
+              {
+                "h": 8.09,
+                "w": 48.09,
+                "x": 493.54,
+                "y": 330.72,
+                "confidence": 0.5,
+                "end_index": 812,
+                "label": "table",
+                "start_index": 801
+              },
+              {
+                "h": 9.1,
+                "w": 53.98,
+                "x": 49.27,
+                "y": 363.85,
+                "confidence": 0.5,
+                "end_index": 829,
+                "label": "table",
+                "start_index": 818
+              },
+              {
+                "h": 9.0,
+                "w": 14.0,
+                "x": 172.82,
+                "y": 364.0,
+                "confidence": 0.5,
+                "end_index": 851,
+                "label": "table",
+                "start_index": 849
+              },
+              {
+                "h": 9.0,
+                "w": 24.0,
+                "x": 428.04,
+                "y": 364.0,
+                "confidence": 0.5,
+                "end_index": 925,
+                "label": "table",
+                "start_index": 922
+              },
+              {
+                "h": 8.0,
+                "w": 41.0,
+                "x": 493.54,
+                "y": 364.46,
+                "confidence": 0.5,
+                "end_index": 946,
+                "label": "table",
+                "start_index": 937
+              },
+              {
+                "h": 204.754883997544,
+                "w": 512.6848373779006,
+                "x": 40.93332890939712,
+                "y": 181.03999034549878,
+                "confidence": 0.5,
+                "label": "table"
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 1 'Monthly Fee' expects numeric, got '$29.99 / mo' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "col 4 'Locker &#x26; Sauna Access' expects numeric, got 'Standard Locker Only' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "3 tables on page",
+                "type": "multi_table_page"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "level": 2,
+            "md": "## 5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION",
+            "value": "5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION",
+            "bbox": [
+              {
+                "h": 10.65,
+                "w": 348.44,
+                "x": 41.65,
+                "y": 398.17,
+                "confidence": 0.97,
+                "end_index": 51,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "Equipment & Zone Peak Hours Utilization Breakdown",
+            "value": "Equipment & Zone Peak Hours Utilization Breakdown",
+            "bbox": [
+              {
+                "h": 9.73,
+                "w": 242.02,
+                "x": 209.81,
+                "y": 441.73,
+                "confidence": 0.73,
+                "end_index": 48,
+                "label": "chart",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "csv": "\"Equipment & Zone\",\"Peak Capacity Utilization Rate (%)\"\n\"Free Weights\",\"88\"\n\"Cable Machines\",\"81\"\n\"Treadmills & Cardio\",\"72\"\n\"Functional Crossfit\",\"65\"\n\"Recovery & Sauna\",\"54\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Equipment &#x26; Zone</th>\n        <th>Peak Capacity Utilization Rate (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights</td>\n        <td>88</td>\n    </tr>\n    <tr>\n        <td>Cable Machines</td>\n        <td>81</td>\n    </tr>\n    <tr>\n        <td>Treadmills &#x26; Cardio</td>\n        <td>72</td>\n    </tr>\n    <tr>\n        <td>Functional Crossfit</td>\n        <td>65</td>\n    </tr>\n    <tr>\n        <td>Recovery &#x26; Sauna</td>\n        <td>54</td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Equipment & Zone    | Peak Capacity Utilization Rate (%) |\n| ------------------- | ---------------------------------- |\n| Free Weights        | 88                                 |\n| Cable Machines      | 81                                 |\n| Treadmills & Cardio | 72                                 |\n| Functional Crossfit | 65                                 |\n| Recovery & Sauna    | 54                                 |",
+            "rows": [
+              [
+                "Equipment & Zone",
+                "Peak Capacity Utilization Rate (%)"
+              ],
+              [
+                "Free Weights",
+                "88"
+              ],
+              [
+                "Cable Machines",
+                "81"
+              ],
+              [
+                "Treadmills & Cardio",
+                "72"
+              ],
+              [
+                "Functional Crossfit",
+                "65"
+              ],
+              [
+                "Recovery & Sauna",
+                "54"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 9.73,
+                "w": 242.02,
+                "x": 209.81,
+                "y": 441.73,
+                "confidence": 0.5,
+                "end_index": 425,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 12.89,
+                "w": 22.74,
+                "x": 516.26,
+                "y": 612.47,
+                "confidence": 0.5,
+                "end_index": 425,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 25.26,
+                "w": 141.32,
+                "x": 259.62,
+                "y": 611.95,
+                "confidence": 0.5,
+                "end_index": 53,
+                "label": "text",
+                "start_index": 24
+              },
+              {
+                "h": 11.05,
+                "w": 51.98,
+                "x": 80.4,
+                "y": 469.62,
+                "confidence": 0.5,
+                "end_index": 135,
+                "label": "text",
+                "start_index": 124
+              },
+              {
+                "h": 10.52,
+                "w": 20.03,
+                "x": 484.32,
+                "y": 469.09,
+                "confidence": 0.5,
+                "end_index": 147,
+                "label": "text",
+                "start_index": 146
+              },
+              {
+                "h": 9.21,
+                "w": 61.18,
+                "x": 71.2,
+                "y": 500.92,
+                "confidence": 0.5,
+                "end_index": 198,
+                "label": "text",
+                "start_index": 185
+              },
+              {
+                "h": 10.79,
+                "w": 20.03,
+                "x": 456.7,
+                "y": 499.35,
+                "confidence": 0.5,
+                "end_index": 208,
+                "label": "text",
+                "start_index": 207
+              },
+              {
+                "h": 8.95,
+                "w": 75.26,
+                "x": 56.58,
+                "y": 531.44,
+                "confidence": 0.5,
+                "end_index": 264,
+                "label": "text",
+                "start_index": 246
+              },
+              {
+                "h": 11.05,
+                "w": 19.49,
+                "x": 421.51,
+                "y": 529.34,
+                "confidence": 0.5,
+                "end_index": 269,
+                "label": "text",
+                "start_index": 268
+              },
+              {
+                "h": 7.37,
+                "w": 72.55,
+                "x": 59.29,
+                "y": 563.01,
+                "confidence": 0.5,
+                "end_index": 325,
+                "label": "text",
+                "start_index": 307
+              },
+              {
+                "h": 11.31,
+                "w": 20.03,
+                "x": 393.9,
+                "y": 560.12,
+                "confidence": 0.5,
+                "end_index": 330,
+                "label": "text",
+                "start_index": 329
+              },
+              {
+                "h": 9.73,
+                "w": 70.39,
+                "x": 61.45,
+                "y": 592.22,
+                "confidence": 0.5,
+                "end_index": 383,
+                "label": "text",
+                "start_index": 368
+              },
+              {
+                "h": 11.31,
+                "w": 20.03,
+                "x": 350.58,
+                "y": 590.64,
+                "confidence": 0.5,
+                "end_index": 391,
+                "label": "text",
+                "start_index": 390
+              },
+              {
+                "h": 234.3088393207219,
+                "w": 509.8135679151079,
+                "x": 42.2316760231723,
+                "y": 428.2527897722825,
+                "confidence": 0.5,
+                "label": "chart"
+              },
+              {
+                "h": 234.3088393207219,
+                "w": 509.8135679151079,
+                "x": 42.2316760231723,
+                "y": 428.2527897722825,
+                "confidence": 0.5,
+                "label": "chart"
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 0 'Equipment &#x26; Zone' expects numeric, got 'Free Weights' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "3 tables on page",
+                "type": "multi_table_page"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "level": 2,
+            "md": "## 6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE",
+            "value": "6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE",
+            "bbox": [
+              {
+                "h": 10.25,
+                "w": 317.17,
+                "x": 41.68,
+                "y": 676.06,
+                "confidence": 0.97,
+                "end_index": 43,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "csv": "\"Asset Category\",\"Total Units\",\"Avg. Age (Yrs)\",\"Last Inspection\",\"Next Maintenance\",\"Status Condition\"\n\"Free Weights & Dumbbells\",\"140 Sets\",\"1.2\",\"May 10, 2026\",\"Nov 10, 2026\",\"Optimal\"\n\"Treadmills & Ellipticals\",\"85 Units\",\"2.1\",\"Jun 02, 2026\",\"Aug 15, 2026\",\"Servicing Due\"\n\"Cable & Selectorized Machines\",\"62 Units\",\"1.8\",\"Apr 18, 2026\",\"Oct 18, 2026\",\"Optimal\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights &#x26; Dumbbells</td>\n        <td>140 Sets</td>\n        <td>1.2</td>\n        <td>May 10, 2026</td>\n        <td>Nov 10, 2026</td>\n        <td>Optimal</td>\n    </tr>\n    <tr>\n        <td>Treadmills &#x26; Ellipticals</td>\n        <td>85 Units</td>\n        <td>2.1</td>\n        <td>Jun 02, 2026</td>\n        <td>Aug 15, 2026</td>\n        <td>Servicing Due</td>\n    </tr>\n    <tr>\n        <td>Cable &#x26; Selectorized Machines</td>\n        <td>62 Units</td>\n        <td>1.8</td>\n        <td>Apr 18, 2026</td>\n        <td>Oct 18, 2026</td>\n        <td>Optimal</td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Asset Category                | Total Units | Avg. Age (Yrs) | Last Inspection | Next Maintenance | Status Condition |\n| ----------------------------- | ----------- | -------------- | --------------- | ---------------- | ---------------- |\n| Free Weights & Dumbbells      | 140 Sets    | 1.2            | May 10, 2026    | Nov 10, 2026     | Optimal          |\n| Treadmills & Ellipticals      | 85 Units    | 2.1            | Jun 02, 2026    | Aug 15, 2026     | Servicing Due    |\n| Cable & Selectorized Machines | 62 Units    | 1.8            | Apr 18, 2026    | Oct 18, 2026     | Optimal          |",
+            "rows": [
+              [
+                "Asset Category",
+                "Total Units",
+                "Avg. Age (Yrs)",
+                "Last Inspection",
+                "Next Maintenance",
+                "Status Condition"
+              ],
+              [
+                "Free Weights & Dumbbells",
+                "140 Sets",
+                "1.2",
+                "May 10, 2026",
+                "Nov 10, 2026",
+                "Optimal"
+              ],
+              [
+                "Treadmills & Ellipticals",
+                "85 Units",
+                "2.1",
+                "Jun 02, 2026",
+                "Aug 15, 2026",
+                "Servicing Due"
+              ],
+              [
+                "Cable & Selectorized Machines",
+                "62 Units",
+                "1.8",
+                "Apr 18, 2026",
+                "Oct 18, 2026",
+                "Optimal"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 93.12,
+                "w": 512.73,
+                "x": 41.19,
+                "y": 702.05,
+                "confidence": 0.99,
+                "end_index": 603,
+                "label": "table",
+                "start_index": 0
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 1 'Total Units' expects numeric, got '140 Sets' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "col 3 'Last Inspection': 3/3 (100%) have interior whitespace",
+                "type": "possible_merged_columns"
+              },
+              {
+                "details": "3 tables on page",
+                "type": "multi_table_page"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "items": [
+              {
+                "md": "Sudheer Gym — Confidential Parsing Benchmark Document\n\\<page_number>Page 2 of 4\\</page_number>",
+                "value": "Sudheer Gym — Confidential Parsing Benchmark Document\n<page_number>Page 2 of 4</page_number>",
+                "bbox": [
+                  {
+                    "h": 9.0,
+                    "w": 214.29,
+                    "x": 42.52,
+                    "y": 820.42,
+                    "confidence": 0.96,
+                    "end_index": 52,
+                    "label": "footer",
+                    "start_index": 0
+                  },
+                  {
+                    "h": 9.0,
+                    "w": 40.47,
+                    "x": 511.83,
+                    "y": 820.42,
+                    "confidence": 0.96,
+                    "end_index": 79,
+                    "label": "footer",
+                    "start_index": 68
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "Sudheer Gym — Confidential Parsing Benchmark Document\n<page_number>Page 2 of 4</page_number>",
+            "bbox": [
+              {
+                "h": 9.0,
+                "w": 509.78,
+                "x": 42.52,
+                "y": 820.42
+              }
+            ],
+            "type": "footer"
+          }
+        ],
+        "page_height": 841.89,
+        "page_number": 2,
+        "page_width": 595.276,
+        "success": true
+      },
+      {
+        "items": [
+          {
+            "csv": "\"Asset Category\",\"Total Units\",\"Avg. Age (Yrs)\",\"Last Inspection\",\"Next Maintenance\",\"Status Condition\"\n\"Crossfit Rig & Functional Rack\",\"12 Stations\",\"0.8\",\"Jul 01, 2026\",\"Jan 01, 2027\",\"New Equipment\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Crossfit Rig &#x26; Functional Rack</td>\n        <td>12 Stations</td>\n        <td>0.8</td>\n        <td>Jul 01, 2026</td>\n        <td>Jan 01, 2027</td>\n        <td><mark>New Equipment</mark></td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Asset Category                 | Total Units | Avg. Age (Yrs) | Last Inspection | Next Maintenance | Status Condition |\n| ------------------------------ | ----------- | -------------- | --------------- | ---------------- | ---------------- |\n| Crossfit Rig & Functional Rack | 12 Stations | 0.8            | Jul 01, 2026    | Jan 01, 2027     | *New Equipment*  |",
+            "rows": [
+              [
+                "Asset Category",
+                "Total Units",
+                "Avg. Age (Yrs)",
+                "Last Inspection",
+                "Next Maintenance",
+                "Status Condition"
+              ],
+              [
+                "Crossfit Rig & Functional Rack",
+                "12 Stations",
+                "0.8",
+                "Jul 01, 2026",
+                "Jan 01, 2027",
+                "New Equipment"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 46.36,
+                "w": 511.41,
+                "x": 41.97,
+                "y": 33.16,
+                "confidence": 0.95,
+                "end_index": 364,
+                "label": "table",
+                "start_index": 0
+              }
+            ],
+            "parse_concerns": [
+              {
+                "details": "col 1 'Total Units' expects numeric, got '12 Stations' in row 1",
+                "type": "header_value_type_mismatch"
+              },
+              {
+                "details": "col 3 'Last Inspection': 1/1 (100%) have interior whitespace",
+                "type": "possible_merged_columns"
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "md": "**LlamaParse Test Note (Page 2):** Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction, horizontal bar chart reading, and unit values.",
+            "value": "LlamaParse Test Note (Page 2): Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction, horizontal bar chart reading, and unit values.",
+            "bbox": [
+              {
+                "h": 19.62,
+                "w": 454.94,
+                "x": 54.52,
+                "y": 96.4,
+                "confidence": 0.93,
+                "end_index": 176,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "items": [
+              {
+                "md": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "value": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "bbox": [
+                  {
+                    "h": 9.0,
+                    "w": 214.29,
+                    "x": 42.52,
+                    "y": 820.42,
+                    "confidence": 0.94,
+                    "end_index": 52,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "\\<page_number>Page 3 of 4\\</page_number>",
+                "value": "<page_number>Page 3 of 4</page_number>",
+                "bbox": [
+                  {
+                    "h": 8.67,
+                    "w": 41.27,
+                    "x": 511.82,
+                    "y": 820.79,
+                    "confidence": 0.95,
+                    "end_index": 39,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 3 of 4</page_number>",
+            "bbox": [
+              {
+                "h": 9.04,
+                "w": 510.57,
+                "x": 42.52,
+                "y": 820.42
+              }
+            ],
+            "type": "footer"
+          }
+        ],
+        "page_height": 841.89,
+        "page_number": 3,
+        "page_width": 595.276,
+        "success": true
+      },
+      {
+        "items": [
+          {
+            "level": 1,
+            "md": "# SUDHEER GYM",
+            "value": "SUDHEER GYM",
+            "bbox": [
+              {
+                "h": 15.05,
+                "w": 137.04,
+                "x": 57.82,
+                "y": 49.54,
+                "confidence": 0.92,
+                "end_index": 12,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "**Section**: Financials\n**Confidentiality**: Internal Use",
+            "value": "Section: Financials\nConfidentiality: Internal Use",
+            "bbox": [
+              {
+                "h": 9.1,
+                "w": 73.97,
+                "x": 462.87,
+                "y": 57.6,
+                "confidence": 0.94,
+                "end_index": 22,
+                "label": "key-value-region",
+                "start_index": 0
+              },
+              {
+                "h": 9.0,
+                "w": 38.0,
+                "x": 498.84,
+                "y": 57.7,
+                "confidence": 1.0,
+                "end_index": 22,
+                "label": "key-value-region",
+                "start_index": 13
+              },
+              {
+                "h": 9.0,
+                "w": 62.0,
+                "x": 427.01,
+                "y": 69.92,
+                "confidence": 1.0,
+                "end_index": 43,
+                "label": "text",
+                "start_index": 24
+              },
+              {
+                "h": 9.0,
+                "w": 47.6,
+                "x": 491.31,
+                "y": 70.02,
+                "confidence": 1.0,
+                "end_index": 56,
+                "label": "key-value-region",
+                "start_index": 45
+              },
+              {
+                "h": 9.508329261023063,
+                "w": 62.822112838081694,
+                "x": 426.8450579485685,
+                "y": 68.83162357387336,
+                "confidence": 0.94,
+                "label": "key-value-region"
+              },
+              {
+                "h": 8.546690934326337,
+                "w": 45.62857036855948,
+                "x": 491.4979767734693,
+                "y": 68.95596226059872,
+                "confidence": 0.94,
+                "label": "key-value-region"
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "md": "Page 3: Branch Financial Breakdown & Roadmap",
+            "value": "Page 3: Branch Financial Breakdown & Roadmap",
+            "bbox": [
+              {
+                "h": 10.06,
+                "w": 208.03,
+                "x": 58.27,
+                "y": 77.9,
+                "confidence": 0.94,
+                "end_index": 43,
+                "label": "text",
+                "start_index": 0
+              },
+              {
+                "h": 10.61492393700973,
+                "w": 208.72643905129638,
+                "x": 57.80032387770777,
+                "y": 76.76397798019906,
+                "confidence": 0.94,
+                "label": "text"
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "level": 2,
+            "md": "## 7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX",
+            "value": "7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX",
+            "bbox": [
+              {
+                "h": 10.48,
+                "w": 397.86,
+                "x": 41.68,
+                "y": 115.01,
+                "confidence": 0.97,
+                "end_index": 55,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "Financial results and spatial efficiency across all operating Sudheer Gym facility locations.",
+            "value": "Financial results and spatial efficiency across all operating Sudheer Gym facility locations.",
+            "bbox": [
+              {
+                "h": 10.11,
+                "w": 376.67,
+                "x": 42.52,
+                "y": 146.96,
+                "confidence": 0.98,
+                "end_index": 92,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "csv": "\"Branch Location\",\"Facility Size\",\"Monthly Revenue\",\"Operating Cost\",\"Net Profit\",\"Margin (%)\",\"Rev / Sq Ft\"\n\"Downtown Main\",\"15,000 sq ft\",\"$42,000\",\"$28,500\",\"$13,500\",\"32.1%\",\"$2.80\"\n\"Westside Hub\",\"10,000 sq ft\",\"$28,500\",\"$20,520\",\"$7,980\",\"28.0%\",\"$2.85\"\n\"Eastside Express\",\"6,500 sq ft\",\"$18,200\",\"$13,650\",\"$4,550\",\"25.0%\",\"$2.80\"\n\"North Campus\",\"12,000 sq ft\",\"$34,000\",\"$23,800\",\"$10,200\",\"30.0%\",\"$2.83\"\n\"Southbay Plaza\",\"11,500 sq ft\",\"$31,500\",\"$22,365\",\"$9,135\",\"29.0%\",\"$2.74\"\n\"Metro Central\",\"14,000 sq ft\",\"$39,800\",\"$27,064\",\"$12,736\",\"32.0%\",\"$2.84\"\n\"Total / Average\",\"69,000 sq ft\",\"$194,000\",\"$135,899\",\"$58,101\",\"29.9%\",\"$2.81\"",
+            "html": "<table>\n  <thead>\n    <tr>\n        <th>Branch Location</th>\n        <th>Facility Size</th>\n        <th>Monthly Revenue</th>\n        <th>Operating Cost</th>\n        <th>Net Profit</th>\n        <th>Margin (%)</th>\n        <th>Rev / Sq Ft</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Downtown Main</td>\n        <td>15,000 sq ft</td>\n        <td>$42,000</td>\n        <td>$28,500</td>\n        <td>$13,500</td>\n        <td>32.1%</td>\n        <td>$2.80</td>\n    </tr>\n    <tr>\n        <td>Westside Hub</td>\n        <td>10,000 sq ft</td>\n        <td>$28,500</td>\n        <td>$20,520</td>\n        <td>$7,980</td>\n        <td>28.0%</td>\n        <td>$2.85</td>\n    </tr>\n    <tr>\n        <td>Eastside Express</td>\n        <td>6,500 sq ft</td>\n        <td>$18,200</td>\n        <td>$13,650</td>\n        <td>$4,550</td>\n        <td>25.0%</td>\n        <td>$2.80</td>\n    </tr>\n    <tr>\n        <td>North Campus</td>\n        <td>12,000 sq ft</td>\n        <td>$34,000</td>\n        <td>$23,800</td>\n        <td>$10,200</td>\n        <td>30.0%</td>\n        <td>$2.83</td>\n    </tr>\n    <tr>\n        <td>Southbay Plaza</td>\n        <td>11,500 sq ft</td>\n        <td>$31,500</td>\n        <td>$22,365</td>\n        <td>$9,135</td>\n        <td>29.0%</td>\n        <td>$2.74</td>\n    </tr>\n    <tr>\n        <td>Metro Central</td>\n        <td>14,000 sq ft</td>\n        <td>$39,800</td>\n        <td>$27,064</td>\n        <td>$12,736</td>\n        <td>32.0%</td>\n        <td>$2.84</td>\n    </tr>\n    <tr>\n        <td><strong>Total / Average</strong></td>\n        <td><strong>69,000 sq ft</strong></td>\n        <td><strong>$194,000</strong></td>\n        <td><strong>$135,899</strong></td>\n        <td><strong>$58,101</strong></td>\n        <td><strong>29.9%</strong></td>\n        <td><strong>$2.81</strong></td>\n    </tr>\n  </tbody>\n</table>",
+            "md": "| Branch Location     | Facility Size    | Monthly Revenue | Operating Cost | Net Profit  | Margin (%) | Rev / Sq Ft |\n| ------------------- | ---------------- | --------------- | -------------- | ----------- | ---------- | ----------- |\n| Downtown Main       | 15,000 sq ft     | $42,000         | $28,500        | $13,500     | 32.1%      | $2.80       |\n| Westside Hub        | 10,000 sq ft     | $28,500         | $20,520        | $7,980      | 28.0%      | $2.85       |\n| Eastside Express    | 6,500 sq ft      | $18,200         | $13,650        | $4,550      | 25.0%      | $2.80       |\n| North Campus        | 12,000 sq ft     | $34,000         | $23,800        | $10,200     | 30.0%      | $2.83       |\n| Southbay Plaza      | 11,500 sq ft     | $31,500         | $22,365        | $9,135      | 29.0%      | $2.74       |\n| Metro Central       | 14,000 sq ft     | $39,800         | $27,064        | $12,736     | 32.0%      | $2.84       |\n| **Total / Average** | **69,000 sq ft** | **$194,000**    | **$135,899**   | **$58,101** | **29.9%**  | **$2.81**   |",
+            "rows": [
+              [
+                "Branch Location",
+                "Facility Size",
+                "Monthly Revenue",
+                "Operating Cost",
+                "Net Profit",
+                "Margin (%)",
+                "Rev / Sq Ft"
+              ],
+              [
+                "Downtown Main",
+                "15,000 sq ft",
+                "$42,000",
+                "$28,500",
+                "$13,500",
+                "32.1%",
+                "$2.80"
+              ],
+              [
+                "Westside Hub",
+                "10,000 sq ft",
+                "$28,500",
+                "$20,520",
+                "$7,980",
+                "28.0%",
+                "$2.85"
+              ],
+              [
+                "Eastside Express",
+                "6,500 sq ft",
+                "$18,200",
+                "$13,650",
+                "$4,550",
+                "25.0%",
+                "$2.80"
+              ],
+              [
+                "North Campus",
+                "12,000 sq ft",
+                "$34,000",
+                "$23,800",
+                "$10,200",
+                "30.0%",
+                "$2.83"
+              ],
+              [
+                "Southbay Plaza",
+                "11,500 sq ft",
+                "$31,500",
+                "$22,365",
+                "$9,135",
+                "29.0%",
+                "$2.74"
+              ],
+              [
+                "Metro Central",
+                "14,000 sq ft",
+                "$39,800",
+                "$27,064",
+                "$12,736",
+                "32.0%",
+                "$2.84"
+              ],
+              [
+                "Total / Average",
+                "69,000 sq ft",
+                "$194,000",
+                "$135,899",
+                "$58,101",
+                "29.9%",
+                "$2.81"
+              ]
+            ],
+            "bbox": [
+              {
+                "h": 173.46,
+                "w": 512.72,
+                "x": 40.87,
+                "y": 167.08,
+                "confidence": 1.0,
+                "end_index": 1069,
+                "label": "table",
+                "start_index": 0
+              }
+            ],
+            "type": "table"
+          },
+          {
+            "level": 2,
+            "md": "## 8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)",
+            "value": "8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)",
+            "bbox": [
+              {
+                "h": 12.35,
+                "w": 409.02,
+                "x": 41.69,
+                "y": 353.07,
+                "confidence": 0.97,
+                "end_index": 59,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "level": 3,
+            "md": "### Completed Milestones",
+            "value": "Completed Milestones",
+            "bbox": [
+              {
+                "h": 10.12,
+                "w": 106.38,
+                "x": 47.02,
+                "y": 390.59,
+                "confidence": 0.98,
+                "end_index": 23,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "items": [
+              {
+                "md": "**Q1 2026**: Deployed unified cloud CRM across all 8 branches for synchronized membership tracking.",
+                "value": "Q1 2026: Deployed unified cloud CRM across all 8 branches for synchronized membership tracking.",
+                "bbox": [
+                  {
+                    "h": 23.89,
+                    "w": 212.47,
+                    "x": 60.52,
+                    "y": 409.49,
+                    "confidence": 0.99,
+                    "end_index": 98,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Q2 2026**: Launched state-of-the-art recovery zone at Downtown Main (Cryotherapy & Infra-red Sauna).",
+                "value": "Q2 2026: Launched state-of-the-art recovery zone at Downtown Main (Cryotherapy & Infra-red Sauna).",
+                "bbox": [
+                  {
+                    "h": 23.89,
+                    "w": 221.35,
+                    "x": 60.52,
+                    "y": 440.04,
+                    "confidence": 0.99,
+                    "end_index": 101,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Q2 2026**: Reached benchmark 12,000+ active members network-wide.",
+                "value": "Q2 2026: Reached benchmark 12,000+ active members network-wide.",
+                "bbox": [
+                  {
+                    "h": 22.41,
+                    "w": 243.78,
+                    "x": 53.27,
+                    "y": 469.59,
+                    "confidence": 0.99,
+                    "end_index": 66,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "* **Q1 2026**: Deployed unified cloud CRM across all 8 branches for synchronized membership tracking.\n\n* **Q2 2026**: Launched state-of-the-art recovery zone at Downtown Main (Cryotherapy & Infra-red Sauna).\n\n* **Q2 2026**: Reached benchmark 12,000+ active members network-wide.",
+            "ordered": false,
+            "bbox": [
+              {
+                "h": 82.52,
+                "w": 243.78,
+                "x": 53.27,
+                "y": 409.49,
+                "confidence": 0.99,
+                "end_index": 277,
+                "label": "list",
+                "start_index": 0
+              }
+            ],
+            "type": "list"
+          },
+          {
+            "level": 3,
+            "md": "### Upcoming Initiatives",
+            "value": "Upcoming Initiatives",
+            "bbox": [
+              {
+                "h": 10.0,
+                "w": 97.68,
+                "x": 310.97,
+                "y": 390.71,
+                "confidence": 0.98,
+                "end_index": 23,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "items": [
+              {
+                "md": "**Q3 2026**: Groundbreaking for 2 new suburban franchise outlets (Green Valley & Riverdale).",
+                "value": "Q3 2026: Groundbreaking for 2 new suburban franchise outlets (Green Valley & Riverdale).",
+                "bbox": [
+                  {
+                    "h": 23.89,
+                    "w": 194.39,
+                    "x": 324.47,
+                    "y": 409.49,
+                    "confidence": 0.99,
+                    "end_index": 91,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Q4 2026**: Introduction of AI-powered workout tracking in the Sudheer Gym mobile app.",
+                "value": "Q4 2026: Introduction of AI-powered workout tracking in the Sudheer Gym mobile app.",
+                "bbox": [
+                  {
+                    "h": 23.89,
+                    "w": 188.91,
+                    "x": 324.47,
+                    "y": 440.04,
+                    "confidence": 0.99,
+                    "end_index": 86,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "**Q1 2027**: Target revenue benchmark of $250,000 / month.",
+                "value": "Q1 2027: Target revenue benchmark of $250,000 / month.",
+                "bbox": [
+                  {
+                    "h": 22.17,
+                    "w": 220.43,
+                    "x": 317.91,
+                    "y": 469.64,
+                    "confidence": 0.99,
+                    "end_index": 57,
+                    "label": "text",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "* **Q3 2026**: Groundbreaking for 2 new suburban franchise outlets (Green Valley & Riverdale).\n\n* **Q4 2026**: Introduction of AI-powered workout tracking in the Sudheer Gym mobile app.\n\n* **Q1 2027**: Target revenue benchmark of $250,000 / month.",
+            "ordered": false,
+            "bbox": [
+              {
+                "h": 82.33,
+                "w": 220.43,
+                "x": 317.91,
+                "y": 409.49,
+                "confidence": 0.99,
+                "end_index": 246,
+                "label": "list",
+                "start_index": 0
+              }
+            ],
+            "type": "list"
+          },
+          {
+            "level": 2,
+            "md": "## 9. COMPLIANCE & DOCUMENT VERIFICATION",
+            "value": "9. COMPLIANCE & DOCUMENT VERIFICATION",
+            "bbox": [
+              {
+                "h": 10.33,
+                "w": 279.14,
+                "x": 41.81,
+                "y": 512.14,
+                "confidence": 0.97,
+                "end_index": 39,
+                "label": "paragraph_title",
+                "start_index": 0
+              }
+            ],
+            "type": "heading"
+          },
+          {
+            "md": "This document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM layout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to evaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.",
+            "value": "This document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM layout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to evaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.",
+            "bbox": [
+              {
+                "h": 32.98,
+                "w": 496.48,
+                "x": 41.22,
+                "y": 541.53,
+                "confidence": 0.99,
+                "end_index": 378,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "md": "<mark>**LlamaParse Test Note (Page 3):** Tests multi-page boundary isolation, table footer summary row extraction (`tfoot`), currency formatting parsing, and compliance section paragraph extraction.</mark>",
+            "value": "<mark>LlamaParse Test Note (Page 3): Tests multi-page boundary isolation, table footer summary row extraction (tfoot), currency formatting parsing, and compliance section paragraph extraction.</mark>",
+            "bbox": [
+              {
+                "h": 19.69,
+                "w": 479.17,
+                "x": 54.52,
+                "y": 595.44,
+                "confidence": 0.98,
+                "end_index": 204,
+                "label": "text",
+                "start_index": 0
+              }
+            ],
+            "type": "text"
+          },
+          {
+            "items": [
+              {
+                "md": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "value": "Sudheer Gym — Confidential Parsing Benchmark Document",
+                "bbox": [
+                  {
+                    "h": 8.98,
+                    "w": 216.21,
+                    "x": 41.43,
+                    "y": 820.65,
+                    "confidence": 0.96,
+                    "end_index": 52,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              },
+              {
+                "md": "\\<page_number>Page 4 of 4\\</page_number>",
+                "value": "<page_number>Page 4 of 4</page_number>",
+                "bbox": [
+                  {
+                    "h": 8.69,
+                    "w": 41.34,
+                    "x": 511.72,
+                    "y": 820.77,
+                    "confidence": 0.97,
+                    "end_index": 39,
+                    "label": "footer",
+                    "start_index": 0
+                  }
+                ],
+                "type": "text"
+              }
+            ],
+            "md": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 4 of 4</page_number>",
+            "bbox": [
+              {
+                "h": 8.98,
+                "w": 511.63,
+                "x": 41.43,
+                "y": 820.65
+              }
+            ],
+            "type": "footer"
+          }
+        ],
+        "page_height": 841.89,
+        "page_number": 4,
+        "page_width": 595.276,
+        "success": true
+      }
+    ]
+  },
+  "job_metadata": {
+    "state_transitions": {
+      "pending_at": "2026-07-24T21:15:36.072545Z",
+      "throttled_at": "2026-07-24T21:15:36.321423Z",
+      "running_at": "2026-07-24T21:15:36.501298Z",
+      "completed_at": "2026-07-24T21:15:54.432872Z",
+      "failed_at": null,
+      "cancelled_at": null
+    },
+    "pdf-pages": 4,
+    "pdf-real-pages": 4,
+    "pdf-rawTextLength": 8419,
+    "pdf-mdLength": 9146,
+    "pdf-time": 10474,
+    "pdf-ocrTime": 0,
+    "pdf-image-convertTime": 0,
+    "pdf-pdfToHTMLTime": 0,
+    "pdf-llmTime": 7649,
+    "pdf-inputTokens": 65437,
+    "pdf-outputTokens": 3648,
+    "pdf-image-ocr-count": 12,
+    "pdf-image-ocr-failed-count": 0,
+    "pdf-image-ocr-success-count": 14,
+    "pdf-image-ocr-empty-count": 10,
+    "pdf-image-ocr-hadText-count": 4,
+    "pdf-image-ocr-pixels": 41937401,
+    "pdf-multimodal-time": 0,
+    "pdf-multimodal-pdf2Image": 0,
+    "pdf-high-res-ocr": 4
+  },
+  "markdown": {
+    "pages": [
+      {
+        "markdown": "# SUDHEER GYM\n**Doc ID:** SG-PERF-2026\n**Date:** Q2 2026\n**Target:** LlamaParse Test Suite\n\nAnnual Performance & Expansion Analytics Report\n\n# 1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS\n\nThis report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for **Sudheer Gym Franchise Operations**. The layout is optimized to benchmark multimodal PDF parsing engines, table structure extractors, and OCR vision models.\n\n<table>\n  <thead>\n    <tr>\n      <th>12,450</th>\n      <th>8 Branches</th>\n      <th>84.2%</th>\n      <th>$108,000</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ACTIVE MEMBERS</td>\n      <td>OPERATIONAL OUTLETS</td>\n      <td>RETENTION RATE</td>\n      <td>Q2 2026 REVENUE</td>\n    </tr>\n  </tbody>\n</table>\n\n# 2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY\n\nSudheer Gym: Quarterly Active Membership & Revenue Trajectory\n\n<table>\n  <thead>\n    <tr>\n        <th>Quarter</th>\n        <th>Active Members</th>\n        <th>Revenue ($k)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Q1 2025</td>\n        <td>8,200</td>\n        <td>$45k</td>\n    </tr>\n    <tr>\n        <td>Q2 2025</td>\n        <td>9,100</td>\n        <td>$58k</td>\n    </tr>\n    <tr>\n        <td>Q3 2025</td>\n        <td>10,300</td>\n        <td>$72k</td>\n    </tr>\n    <tr>\n        <td>Q4 2025</td>\n        <td>11,100</td>\n        <td>$85k</td>\n    </tr>\n    <tr>\n        <td>Q1 2026</td>\n        <td>11,800</td>\n        <td>$92k</td>\n    </tr>\n    <tr>\n        <td>Q2 2026</td>\n        <td>12,450</td>\n        <td>$108k</td>\n    </tr>\n  </tbody>\n</table>\n\n# 3. REGIONAL FACILITY OVERVIEW\n\n## Operating Highlights\n\n* **Peak Attendance:** Morning slot (06:00 - 09:00) and Evening slot (17:00 - 21:00) represent 68% of total daily traffic.\n\n* **Member Growth:** +18% Year-over-Year growth across all active branches.\n\n* **Personal Training:** PT session adoption increased by 24% following the introduction of Tier-based Gold memberships.\n\n## Operational Focus Areas\n\n* **Smart Facility Tech:** Integrated RFID keycard access and automated locker systems installed across 100% of branches.\n\n* **Mobile App Engagement:** 8,900 active users booking group classes via the Sudheer Gym iOS/Android application.\n\n* **Equipment Refresh:** $120,000 invested in new custom rack systems and Olympic plates.\n\n> **LlamaParse Test Note (Page 1):** Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation, and two-column layout parsing.",
+        "page_number": 1,
+        "success": true,
+        "footer": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 1 of 4</page_number>"
+      },
+      {
+        "markdown": "# SUDHEER GYM\n**Section:** Operations\n**Version:** 2.4-B\n\nPage 2: Membership Breakdown & Operational Utilization\n\n## 4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX\n\nDetailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance indicators.\n\n<table>\n  <thead>\n    <tr>\n        <th>Plan Tier</th>\n        <th>Monthly Fee</th>\n        <th>Active Members</th>\n        <th>Personal Training</th>\n        <th>Locker &amp; Sauna Access</th>\n        <th>Renewal Rate</th>\n        <th>Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Basic Tier</td>\n        <td>$29.99 / mo</td>\n        <td>4,200</td>\n        <td>Not Included</td>\n        <td>Standard Locker Only</td>\n        <td>68.5%</td>\n        <td>Active</td>\n    </tr>\n    <tr>\n        <td>Silver Tier</td>\n        <td>$49.99 / mo</td>\n        <td>5,150</td>\n        <td>1 Session / Month</td>\n        <td>Reserved Locker</td>\n        <td>82.1%</td>\n        <td>Popular</td>\n    </tr>\n    <tr>\n        <td>Gold Tier</td>\n        <td>$79.99 / mo</td>\n        <td>2,100</td>\n        <td>4 Sessions / Month</td>\n        <td>VIP Locker + Sauna + Cold Plunge</td>\n        <td>91.4%</td>\n        <td>High Margin</td>\n    </tr>\n    <tr>\n        <td>Corporate Plan</td>\n        <td>$39.99 / mo</td>\n        <td>1,000</td>\n        <td>Group Sessions</td>\n        <td>Standard Access</td>\n        <td>88.0%</td>\n        <td>B2B Contract</td>\n    </tr>\n    <tr>\n        <td>Student Pass</td>\n        <td>$19.99 / mo</td>\n        <td>850</td>\n        <td>Discount Add-on</td>\n        <td>Standard Access</td>\n        <td>61.2%</td>\n        <td>Discounted</td>\n    </tr>\n  </tbody>\n</table>\n\n## 5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION\n\nEquipment & Zone Peak Hours Utilization Breakdown\n\n<table>\n  <thead>\n    <tr>\n        <th>Equipment &amp; Zone</th>\n        <th>Peak Capacity Utilization Rate (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights</td>\n        <td>88</td>\n    </tr>\n    <tr>\n        <td>Cable Machines</td>\n        <td>81</td>\n    </tr>\n    <tr>\n        <td>Treadmills &amp; Cardio</td>\n        <td>72</td>\n    </tr>\n    <tr>\n        <td>Functional Crossfit</td>\n        <td>65</td>\n    </tr>\n    <tr>\n        <td>Recovery &amp; Sauna</td>\n        <td>54</td>\n    </tr>\n  </tbody>\n</table>\n\n## 6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE\n\n<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights &amp; Dumbbells</td>\n        <td>140 Sets</td>\n        <td>1.2</td>\n        <td>May 10, 2026</td>\n        <td>Nov 10, 2026</td>\n        <td>Optimal</td>\n    </tr>\n    <tr>\n        <td>Treadmills &amp; Ellipticals</td>\n        <td>85 Units</td>\n        <td>2.1</td>\n        <td>Jun 02, 2026</td>\n        <td>Aug 15, 2026</td>\n        <td>Servicing Due</td>\n    </tr>\n    <tr>\n        <td>Cable &amp; Selectorized Machines</td>\n        <td>62 Units</td>\n        <td>1.8</td>\n        <td>Apr 18, 2026</td>\n        <td>Oct 18, 2026</td>\n        <td>Optimal</td>\n    </tr>\n  </tbody>\n</table>",
+        "page_number": 2,
+        "success": true,
+        "footer": "Sudheer Gym — Confidential Parsing Benchmark Document\n<page_number>Page 2 of 4</page_number>"
+      },
+      {
+        "markdown": "<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Crossfit Rig &amp; Functional Rack</td>\n        <td>12 Stations</td>\n        <td>0.8</td>\n        <td>Jul 01, 2026</td>\n        <td>Jan 01, 2027</td>\n        <td><mark>New Equipment</mark></td>\n    </tr>\n  </tbody>\n</table>\n\n**LlamaParse Test Note (Page 2):** Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction, horizontal bar chart reading, and unit values.",
+        "page_number": 3,
+        "success": true,
+        "footer": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 3 of 4</page_number>"
+      },
+      {
+        "markdown": "# SUDHEER GYM\n\n**Section**: Financials\n**Confidentiality**: Internal Use\n\nPage 3: Branch Financial Breakdown & Roadmap\n\n## 7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX\n\nFinancial results and spatial efficiency across all operating Sudheer Gym facility locations.\n\n<table>\n  <thead>\n    <tr>\n        <th>Branch Location</th>\n        <th>Facility Size</th>\n        <th>Monthly Revenue</th>\n        <th>Operating Cost</th>\n        <th>Net Profit</th>\n        <th>Margin (%)</th>\n        <th>Rev / Sq Ft</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Downtown Main</td>\n        <td>15,000 sq ft</td>\n        <td>$42,000</td>\n        <td>$28,500</td>\n        <td>$13,500</td>\n        <td>32.1%</td>\n        <td>$2.80</td>\n    </tr>\n    <tr>\n        <td>Westside Hub</td>\n        <td>10,000 sq ft</td>\n        <td>$28,500</td>\n        <td>$20,520</td>\n        <td>$7,980</td>\n        <td>28.0%</td>\n        <td>$2.85</td>\n    </tr>\n    <tr>\n        <td>Eastside Express</td>\n        <td>6,500 sq ft</td>\n        <td>$18,200</td>\n        <td>$13,650</td>\n        <td>$4,550</td>\n        <td>25.0%</td>\n        <td>$2.80</td>\n    </tr>\n    <tr>\n        <td>North Campus</td>\n        <td>12,000 sq ft</td>\n        <td>$34,000</td>\n        <td>$23,800</td>\n        <td>$10,200</td>\n        <td>30.0%</td>\n        <td>$2.83</td>\n    </tr>\n    <tr>\n        <td>Southbay Plaza</td>\n        <td>11,500 sq ft</td>\n        <td>$31,500</td>\n        <td>$22,365</td>\n        <td>$9,135</td>\n        <td>29.0%</td>\n        <td>$2.74</td>\n    </tr>\n    <tr>\n        <td>Metro Central</td>\n        <td>14,000 sq ft</td>\n        <td>$39,800</td>\n        <td>$27,064</td>\n        <td>$12,736</td>\n        <td>32.0%</td>\n        <td>$2.84</td>\n    </tr>\n    <tr>\n        <td><strong>Total / Average</strong></td>\n        <td><strong>69,000 sq ft</strong></td>\n        <td><strong>$194,000</strong></td>\n        <td><strong>$135,899</strong></td>\n        <td><strong>$58,101</strong></td>\n        <td><strong>29.9%</strong></td>\n        <td><strong>$2.81</strong></td>\n    </tr>\n  </tbody>\n</table>\n\n## 8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)\n\n### Completed Milestones\n\n* **Q1 2026**: Deployed unified cloud CRM across all 8 branches for synchronized membership tracking.\n\n* **Q2 2026**: Launched state-of-the-art recovery zone at Downtown Main (Cryotherapy & Infra-red Sauna).\n\n* **Q2 2026**: Reached benchmark 12,000+ active members network-wide.\n\n### Upcoming Initiatives\n\n* **Q3 2026**: Groundbreaking for 2 new suburban franchise outlets (Green Valley & Riverdale).\n\n* **Q4 2026**: Introduction of AI-powered workout tracking in the Sudheer Gym mobile app.\n\n* **Q1 2027**: Target revenue benchmark of $250,000 / month.\n\n## 9. COMPLIANCE & DOCUMENT VERIFICATION\n\nThis document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM layout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to evaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.\n\n> <mark>**LlamaParse Test Note (Page 3):** Tests multi-page boundary isolation, table footer summary row extraction (`tfoot`), currency formatting parsing, and compliance section paragraph extraction.</mark>",
+        "page_number": 4,
+        "success": true,
+        "footer": "Sudheer Gym — Confidential Parsing Benchmark Document\n\n<page_number>Page 4 of 4</page_number>"
+      }
+    ]
+  },
+  "markdown_full": "# SUDHEER GYM\n**Doc ID:** SG-PERF-2026\n**Date:** Q2 2026\n**Target:** LlamaParse Test Suite\n\nAnnual Performance & Expansion Analytics Report\n\n# 1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS\n\nThis report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for **Sudheer Gym Franchise Operations**. The layout is optimized to benchmark multimodal PDF parsing engines, table structure extractors, and OCR vision models.\n\n<table>\n  <thead>\n    <tr>\n      <th>12,450</th>\n      <th>8 Branches</th>\n      <th>84.2%</th>\n      <th>$108,000</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ACTIVE MEMBERS</td>\n<td>OPERATIONAL OUTLETS</td>\n<td>RETENTION RATE</td>\n<td>Q2 2026 REVENUE</td>\n    </tr>\n  </tbody>\n</table>\n\n# 2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY\n\nSudheer Gym: Quarterly Active Membership & Revenue Trajectory\n\n<table>\n  <thead>\n    <tr>\n        <th>Quarter</th>\n        <th>Active Members</th>\n        <th>Revenue ($k)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Q1 2025</td>\n<td>8,200</td>\n<td>$45k</td>\n    </tr>\n<tr>\n        <td>Q2 2025</td>\n<td>9,100</td>\n<td>$58k</td>\n    </tr>\n<tr>\n        <td>Q3 2025</td>\n<td>10,300</td>\n<td>$72k</td>\n    </tr>\n<tr>\n        <td>Q4 2025</td>\n<td>11,100</td>\n<td>$85k</td>\n    </tr>\n<tr>\n        <td>Q1 2026</td>\n<td>11,800</td>\n<td>$92k</td>\n    </tr>\n<tr>\n        <td>Q2 2026</td>\n<td>12,450</td>\n<td>$108k</td>\n    </tr>\n  </tbody>\n</table>\n\n# 3. REGIONAL FACILITY OVERVIEW\n\n## Operating Highlights\n\n* **Peak Attendance:** Morning slot (06:00 - 09:00) and Evening slot (17:00 - 21:00) represent 68% of total daily traffic.\n\n* **Member Growth:** +18% Year-over-Year growth across all active branches.\n\n* **Personal Training:** PT session adoption increased by 24% following the introduction of Tier-based Gold memberships.\n\n## Operational Focus Areas\n\n* **Smart Facility Tech:** Integrated RFID keycard access and automated locker systems installed across 100% of branches.\n\n* **Mobile App Engagement:** 8,900 active users booking group classes via the Sudheer Gym iOS/Android application.\n\n* **Equipment Refresh:** $120,000 invested in new custom rack systems and Olympic plates.\n\n> **LlamaParse Test Note (Page 1):** Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation, and two-column layout parsing.\n\nSudheer Gym — Confidential Parsing Benchmark Document\n\nPage 1 of 4\n\n\n---\n\n# SUDHEER GYM\n**Section:** Operations\n**Version:** 2.4-B\n\nPage 2: Membership Breakdown & Operational Utilization\n\n## 4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX\n\nDetailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance indicators.\n\n<table>\n  <thead>\n    <tr>\n        <th>Plan Tier</th>\n        <th>Monthly Fee</th>\n        <th>Active Members</th>\n        <th>Personal Training</th>\n        <th>Locker &amp; Sauna Access</th>\n        <th>Renewal Rate</th>\n        <th>Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Basic Tier</td>\n<td>$29.99 / mo</td>\n<td>4,200</td>\n<td>Not Included</td>\n<td>Standard Locker Only</td>\n<td>68.5%</td>\n<td>Active</td>\n    </tr>\n<tr>\n        <td>Silver Tier</td>\n<td>$49.99 / mo</td>\n<td>5,150</td>\n<td>1 Session / Month</td>\n<td>Reserved Locker</td>\n<td>82.1%</td>\n<td>Popular</td>\n    </tr>\n<tr>\n        <td>Gold Tier</td>\n<td>$79.99 / mo</td>\n<td>2,100</td>\n<td>4 Sessions / Month</td>\n<td>VIP Locker + Sauna + Cold Plunge</td>\n<td>91.4%</td>\n<td>High Margin</td>\n    </tr>\n<tr>\n        <td>Corporate Plan</td>\n<td>$39.99 / mo</td>\n<td>1,000</td>\n<td>Group Sessions</td>\n<td>Standard Access</td>\n<td>88.0%</td>\n<td>B2B Contract</td>\n    </tr>\n<tr>\n        <td>Student Pass</td>\n<td>$19.99 / mo</td>\n<td>850</td>\n<td>Discount Add-on</td>\n<td>Standard Access</td>\n<td>61.2%</td>\n<td>Discounted</td>\n    </tr>\n  </tbody>\n</table>\n\n## 5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION\n\nEquipment & Zone Peak Hours Utilization Breakdown\n\n<table>\n  <thead>\n    <tr>\n        <th>Equipment &amp; Zone</th>\n        <th>Peak Capacity Utilization Rate (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights</td>\n<td>88</td>\n    </tr>\n<tr>\n        <td>Cable Machines</td>\n<td>81</td>\n    </tr>\n<tr>\n        <td>Treadmills &amp; Cardio</td>\n<td>72</td>\n    </tr>\n<tr>\n        <td>Functional Crossfit</td>\n<td>65</td>\n    </tr>\n<tr>\n        <td>Recovery &amp; Sauna</td>\n<td>54</td>\n    </tr>\n  </tbody>\n</table>\n\n## 6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE\n\n<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Free Weights &amp; Dumbbells</td>\n<td>140 Sets</td>\n<td>1.2</td>\n<td>May 10, 2026</td>\n<td>Nov 10, 2026</td>\n<td>Optimal</td>\n    </tr>\n<tr>\n        <td>Treadmills &amp; Ellipticals</td>\n<td>85 Units</td>\n<td>2.1</td>\n<td>Jun 02, 2026</td>\n<td>Aug 15, 2026</td>\n<td>Servicing Due</td>\n    </tr>\n<tr>\n        <td>Cable &amp; Selectorized Machines</td>\n<td>62 Units</td>\n<td>1.8</td>\n<td>Apr 18, 2026</td>\n<td>Oct 18, 2026</td>\n<td>Optimal</td>\n    </tr>\n  </tbody>\n</table>\n\nSudheer Gym — Confidential Parsing Benchmark Document\nPage 2 of 4\n\n\n---\n\n\n\n<table>\n  <thead>\n    <tr>\n        <th>Asset Category</th>\n        <th>Total Units</th>\n        <th>Avg. Age (Yrs)</th>\n        <th>Last Inspection</th>\n        <th>Next Maintenance</th>\n        <th>Status Condition</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Crossfit Rig &amp; Functional Rack</td>\n<td>12 Stations</td>\n<td>0.8</td>\n<td>Jul 01, 2026</td>\n<td>Jan 01, 2027</td>\n<td><mark>New Equipment</mark></td>\n    </tr>\n  </tbody>\n</table>\n\n**LlamaParse Test Note (Page 2):** Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction, horizontal bar chart reading, and unit values.\n\nSudheer Gym — Confidential Parsing Benchmark Document\n\nPage 3 of 4\n\n\n---\n\n# SUDHEER GYM\n\n**Section**: Financials\n**Confidentiality**: Internal Use\n\nPage 3: Branch Financial Breakdown & Roadmap\n\n## 7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX\n\nFinancial results and spatial efficiency across all operating Sudheer Gym facility locations.\n\n<table>\n  <thead>\n    <tr>\n        <th>Branch Location</th>\n        <th>Facility Size</th>\n        <th>Monthly Revenue</th>\n        <th>Operating Cost</th>\n        <th>Net Profit</th>\n        <th>Margin (%)</th>\n        <th>Rev / Sq Ft</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Downtown Main</td>\n<td>15,000 sq ft</td>\n<td>$42,000</td>\n<td>$28,500</td>\n<td>$13,500</td>\n<td>32.1%</td>\n<td>$2.80</td>\n    </tr>\n<tr>\n        <td>Westside Hub</td>\n<td>10,000 sq ft</td>\n<td>$28,500</td>\n<td>$20,520</td>\n<td>$7,980</td>\n<td>28.0%</td>\n<td>$2.85</td>\n    </tr>\n<tr>\n        <td>Eastside Express</td>\n<td>6,500 sq ft</td>\n<td>$18,200</td>\n<td>$13,650</td>\n<td>$4,550</td>\n<td>25.0%</td>\n<td>$2.80</td>\n    </tr>\n<tr>\n        <td>North Campus</td>\n<td>12,000 sq ft</td>\n<td>$34,000</td>\n<td>$23,800</td>\n<td>$10,200</td>\n<td>30.0%</td>\n<td>$2.83</td>\n    </tr>\n<tr>\n        <td>Southbay Plaza</td>\n<td>11,500 sq ft</td>\n<td>$31,500</td>\n<td>$22,365</td>\n<td>$9,135</td>\n<td>29.0%</td>\n<td>$2.74</td>\n    </tr>\n<tr>\n        <td>Metro Central</td>\n<td>14,000 sq ft</td>\n<td>$39,800</td>\n<td>$27,064</td>\n<td>$12,736</td>\n<td>32.0%</td>\n<td>$2.84</td>\n    </tr>\n<tr>\n        <td><strong>Total / Average</strong></td>\n<td><strong>69,000 sq ft</strong></td>\n<td><strong>$194,000</strong></td>\n<td><strong>$135,899</strong></td>\n<td><strong>$58,101</strong></td>\n<td><strong>29.9%</strong></td>\n<td><strong>$2.81</strong></td>\n    </tr>\n  </tbody>\n</table>\n\n## 8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)\n\n### Completed Milestones\n\n* **Q1 2026**: Deployed unified cloud CRM across all 8 branches for synchronized membership tracking.\n\n* **Q2 2026**: Launched state-of-the-art recovery zone at Downtown Main (Cryotherapy & Infra-red Sauna).\n\n* **Q2 2026**: Reached benchmark 12,000+ active members network-wide.\n\n### Upcoming Initiatives\n\n* **Q3 2026**: Groundbreaking for 2 new suburban franchise outlets (Green Valley & Riverdale).\n\n* **Q4 2026**: Introduction of AI-powered workout tracking in the Sudheer Gym mobile app.\n\n* **Q1 2027**: Target revenue benchmark of $250,000 / month.\n\n## 9. COMPLIANCE & DOCUMENT VERIFICATION\n\nThis document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM layout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to evaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.\n\n> <mark>**LlamaParse Test Note (Page 3):** Tests multi-page boundary isolation, table footer summary row extraction (`tfoot`), currency formatting parsing, and compliance section paragraph extraction.</mark>\n\nSudheer Gym — Confidential Parsing Benchmark Document\n\nPage 4 of 4\n",
+  "metadata": {
+    "pages": [
+      {
+        "page_number": 1,
+        "confidence": 0.948,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 2,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 3,
+        "confidence": 0.97,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 4,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "triggered_auto_mode": false
+      }
+    ]
+  },
+  "raw_parameters": null,
+  "result_content_metadata": {
+    "xlsx": {
+      "size_bytes": 28770,
+      "exists": true,
+      "presigned_url": "https://llama-platform-file-parsing.s3.amazonaws.com/a987a6d7-1e2f-4436-bdf3-556709102d85/d563379f-7ca9-4578-bf3d-f6ad1acaedc1/output.xlsx?AWSAccessKeyId=ASIAXMCG64XTZPDZIDJH&Signature=VLlYQaSqnW%2FYcsCCuRrvz99%2F7LU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEEYaCXVzLWVhc3QtMSJHMEUCIQD0fc9WfUhRCzsuhc79YnxtxYZ6ypF19KoLbret3b1RUAIgIC%2F6rYw%2FC1e7rMLT2DyRk69C0RHLXqQTKp2WPfeRm8AqhwUIDhAAGgw1MDY5NTQ5NjY1MDMiDPnz2Q6TCTyNu0uYHyrkBBuIG52sBc%2Bp2%2F4c0hZ0Fc3CYx9lemkg0f7gB5HbZs8b0gtNdRt0%2FDP5xJVdqMYp9sRnKFx%2BsfCrzhGRQlvFP5nWQxp8leQm84%2FeHjAtnOyrV%2FfZNJjyEmxhx%2FPi03NQrFp9ZNvISCmsHNC0sXAd5XrZFlaj8dquZS8cNVt9tJJ3quVJCG%2FAh7iC8fWHZxPB7no1a0iwmx1U4Jl1c2nDvgcGO7Q3VGl9Wfoh39b5fgyRMf7N1w%2B3xnymEjwi7EzEFQt9roj6yPAe%2BFoAGCXI2u5Ihn45N85bV7wbesuuZ15og9R8xgrBAoWXF0KezFnx2spt3TsC2s9fBYIKjrXbHX33le1ykVth5sC%2FhVsOtDLN2gZgRidTAfDCu3iq0PcMSydOyZwxd9F9PH8DVuuT6J9cis%2FhNCSJTcWzK8RkH%2BUFk2yFriT6G59LpWsLgFcec8OF9uASXmXm85hZMh9o94WgulKmCn0gIcGbPW3EN8qdiYe7O1FccBYIHoEx2Ii4zrVFvvWjwmDrpROB1Kn05RjS9Qh7dYeOY7SIpjcLX4on0RMzt4xubrUcNV1JXhYggEcgY9ljv%2Fl9ue13tAPZMjyRBJXs%2BWiyhybk9cXJl83c35Co7dvcHFIRpw2XHZH9QzpKs6FW54D0WZFtM9%2Fev4jLNPsaYO23ZJxxiN3x%2FUGm7goUekMCrl2UDKWCLhZl74COjEIqaY5YYK6MBG8qcfM%2F4wp7xaZxi6oNhmYuhuYgG07kGPQUif7KnO0mu6t9hoxHTxvqJgWW4W0E7tqZg2yVDhcC3NnBq2RzIHXkq2b0mAARkDDnpo%2FTBjqYAXOtUc40OnMek1iWIdtCDVEMzbObcZWS4A6YemPen%2BMQtQt9dWLt%2BkDwvF6Cvk2ERwFRrV3L%2FG0zvbfnjNce1jlQeqaNM4ceMQU1X%2B1p1V7Y4bjkD5TuX0UkHLJn7heklAX2M24iYSmG1yD80Si%2F6br3y3UmM3UWA2nORASY7PYEp1WRux7VDoZr8fbmx6b8dQ7BonXVN%2BRG&Expires=1784931358"
+    }
+  },
+  "text": {
+    "pages": [
+      {
+        "page_number": 1,
+        "text": "SUDHEER GYM                    Doc ID: SG-PERF-2026\n                                      Date: Q2 2026\nAnnual Performance & Expansion Analytics Report    Target: LlamaParse Test Suite\n\n\n1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS\n\nThis report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for\nSudheer Gym Franchise Operations. The layout is optimized to benchmark multimodal PDF parsing engines, table\nstructure extractors, and OCR vision models.\n\n\n\n<table>\n  <thead>\n    <tr>\n      <th>12,450</th>\n      <th>8 Branches</th>\n      <th>84.2%</th>\n      <th>$108,000</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ACTIVE MEMBERS</td>\n      <td>OPERATIONAL OUTLETS</td>\n      <td>RETENTION RATE</td>\n      <td>Q2 2026 REVENUE</td>\n    </tr>\n  </tbody>\n</table>\n\n\n\n\n\n2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY\n\n\n           Sudheer Gym: Quarterly Active Membership & Revenue Trajectory\n\n  14000                                     11,800    $1,486            120\n\n  12000                10,300    11,100     $92k                        100\n\n  10000                           $85k\n20 8000    8,200    9,100    $72k                                    80 20\n   6000     $45k     $58k                                               60\n   4000                                                                 40\n\n   2000                                                                 20\n   0 Q1 2025  Q2 2025  Q3 2025       Q4 2025  Q1 2026  Q2 2026          0\n                                     Quarter\n\n\n\n3. REGIONAL FACILITY OVERVIEW\n\nOperating Highlights                                     Operational Focus Areas\n• Peak Attendance: Morning slot (06:00 - 09:00) and      • Smart Facility Tech: Integrated RFID keycard access\n Evening slot (17:00 - 21:00) represent 68% of total      and automated locker systems installed across 100% of\n daily traffic.                                           branches.\n• Member Growth: +18% Year-over-Year growth across       • Mobile App Engagement: 8,900 active users booking\n all active branches.                                     group classes via the Sudheer Gym iOS/Android\n• Personal Training: PT session adoption increased by     application.\n 24% following the introduction of Tier-based Gold       • Equipment Refresh: $120,000 invested in new custom\n memberships.                                             rack systems and Olympic plates.\n\nLlamaParse Test Note (Page 1): Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation,\nand two-column layout parsing.\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 1 of 4"
+      },
+      {
+        "page_number": 2,
+        "text": "    SUDHEER GYM                                           Section: Operations\n                                                          Version: 2.4-B\n    Page 2: Membership Breakdown & Operational Utilization\n\n\n    4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX\n\n    Detailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance\n    indicators.\n\n\n    Plan Tier        Monthly     Active      Personal           Locker & Sauna Access     Renewal  Status\n                     Fee         Members     Training                                     Rate\n\n    Basic Tier       $29.99 /      4,200     Not Included       Standard Locker Only      68.5%     Active\n                     mo\n\n    Silver Tier      $49.99 /      5,150     1 Session /        Reserved Locker           82.1%     Popular\n                     mo                      Month\n\n    Gold Tier        $79.99 /      2,100     4 Sessions /       VIP Locker + Sauna +      91.4%     High Margin\n                     mo                      Month              Cold Plunge\n\n    Corporate        $39.99 /      1,000     Group Sessions     Standard Access           88.0%     B2B Contract\n    Plan             mo\n\n    Student Pass     $19.99 /    850         Discount Add-      Standard Access           61.2%     Discounted\n                     mo                      on\n\n    5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION\n\n\n                               Equipment & Zone Peak Hours Utilization Breakdown\n\n               Free Weights                                                     88%\n\n             Cable Machines                                                     81%\n\n    Treadmills & Cardio        72%\n\n\nFunctional Crossfit    65%\n\n   Recovery & Sauna    54%\n\n    0                  20  40  60  80  100\n                           Peak Capacity Utilization Rate (%)\n\n\n\n    6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE\n\n    Asset Category                    Total Units     Avg. Age (Yrs)     Last Inspection     Next Maintenance  Status Condition\n\n    Free Weights & Dumbbells          140 Sets        1.2                May 10, 2026        Nov 10, 2026      Optimal\n\n    Treadmills & Ellipticals          85 Units        2.1                Jun 02, 2026        Aug 15, 2026      Servicing Due\n\n    Cable & Selectorized Machines     62 Units        1.8                Apr 18, 2026        Oct 18, 2026      Optimal\n\n\n\n    Sudheer Gym — Confidential Parsing Benchmark Document    Page 2 of 4"
+      },
+      {
+        "page_number": 3,
+        "text": "Asset Category                     Total Units     Avg. Age (Yrs)     Last Inspection     Next Maintenance  Status Condition\n\nCrossfit Rig & Functional Rack     12 Stations     0.8                Jul 01, 2026        Jan 01, 2027      New Equipment\n\n\nLlamaParse Test Note (Page 2): Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction,\nhorizontal bar chart reading, and unit values.\n\n\n\n\n\n\n\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 3 of 4"
+      },
+      {
+        "page_number": 4,
+        "text": "SUDHEER GYM                                 Section: Financials\n                                            Confidentiality: Internal Use\nPage 3: Branch Financial Breakdown & Roadmap\n\n\n7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX\n\nFinancial results and spatial efficiency across all operating Sudheer Gym facility locations.\n\n Branch Location      Facility Size     Monthly Revenue     Operating Cost     Net Profit     Margin (%)     Rev / Sq Ft\n\n Downtown Main        15,000 sq ft      $42,000             $28,500            $13,500        32.1%          $2.80\n\n Westside Hub         10,000 sq ft      $28,500             $20,520            $7,980         28.0%          $2.85\n\n Eastside Express     6,500 sq ft       $18,200             $13,650            $4,550         25.0%          $2.80\n\n North Campus         12,000 sq ft      $34,000             $23,800            $10,200        30.0%          $2.83\n\n Southbay Plaza       11,500 sq ft      $31,500             $22,365            $9,135         29.0%          $2.74\n\n Metro Central        14,000 sq ft      $39,800             $27,064            $12,736        32.0%          $2.84\n\n Total / Average      69,000 sq ft      $194,000            $135,899           $58,101        29.9%          $2.81\n\n8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)\n\n\nCompleted Milestones                                      Upcoming Initiatives\n\n • Q1 2026: Deployed unified cloud CRM across all 8        • Q3 2026: Groundbreaking for 2 new suburban\n branches for synchronized membership tracking.            franchise outlets (Green Valley & Riverdale).\n • Q2 2026: Launched state-of-the-art recovery zone at     • Q4 2026: Introduction of AI-powered workout\n Downtown Main (Cryotherapy & Infra-red Sauna).            tracking in the Sudheer Gym mobile app.\n • Q2 2026: Reached benchmark 12,000+ active members       • Q1 2027: Target revenue benchmark of $250,000 /\n network-wide.                                             month.\n\n9. COMPLIANCE & DOCUMENT VERIFICATION\n\nThis document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM\nlayout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to\nevaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.\n\n LlamaParse Test Note (Page 3): Tests multi-page boundary isolation, table footer summary row extraction (`tfoot`), currency formatting\n parsing, and compliance section paragraph extraction.\n\n\n\n\n\n\n\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 4 of 4"
+      }
+    ]
+  },
+  "text_full": "SUDHEER GYM                    Doc ID: SG-PERF-2026\n                                      Date: Q2 2026\nAnnual Performance & Expansion Analytics Report    Target: LlamaParse Test Suite\n\n\n1. EXECUTIVE SUMMARY & KEY PERFORMANCE METRICS\n\nThis report compiles high-density operational data, financial metrics, structural tables, and graphical analytics for\nSudheer Gym Franchise Operations. The layout is optimized to benchmark multimodal PDF parsing engines, table\nstructure extractors, and OCR vision models.\n\n\n\n<table>\n  <thead>\n    <tr>\n      <th>12,450</th>\n      <th>8 Branches</th>\n      <th>84.2%</th>\n      <th>$108,000</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>ACTIVE MEMBERS</td>\n      <td>OPERATIONAL OUTLETS</td>\n      <td>RETENTION RATE</td>\n      <td>Q2 2026 REVENUE</td>\n    </tr>\n  </tbody>\n</table>\n\n\n\n\n\n2. REVENUE & ACTIVE MEMBERSHIP GROWTH TRAJECTORY\n\n\n           Sudheer Gym: Quarterly Active Membership & Revenue Trajectory\n\n  14000                                     11,800    $1,486            120\n\n  12000                10,300    11,100     $92k                        100\n\n  10000                           $85k\n20 8000    8,200    9,100    $72k                                    80 20\n   6000     $45k     $58k                                               60\n   4000                                                                 40\n\n   2000                                                                 20\n   0 Q1 2025  Q2 2025  Q3 2025       Q4 2025  Q1 2026  Q2 2026          0\n                                     Quarter\n\n\n\n3. REGIONAL FACILITY OVERVIEW\n\nOperating Highlights                                     Operational Focus Areas\n• Peak Attendance: Morning slot (06:00 - 09:00) and      • Smart Facility Tech: Integrated RFID keycard access\n Evening slot (17:00 - 21:00) represent 68% of total      and automated locker systems installed across 100% of\n daily traffic.                                           branches.\n• Member Growth: +18% Year-over-Year growth across       • Mobile App Engagement: 8,900 active users booking\n all active branches.                                     group classes via the Sudheer Gym iOS/Android\n• Personal Training: PT session adoption increased by     application.\n 24% following the introduction of Tier-based Gold       • Equipment Refresh: $120,000 invested in new custom\n memberships.                                             rack systems and Olympic plates.\n\nLlamaParse Test Note (Page 1): Tests executive card layout extraction, dual-axis bar/line graph interpretation, list hierarchy preservation,\nand two-column layout parsing.\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 1 of 4\n\n---\n\n    SUDHEER GYM                                           Section: Operations\n                                                          Version: 2.4-B\n    Page 2: Membership Breakdown & Operational Utilization\n\n\n    4. MEMBERSHIP TIER COMPARISON & PRICING MATRIX\n\n    Detailed breakdown of active subscription tiers, pricing structures, included amenities, and renewal performance\n    indicators.\n\n\n    Plan Tier        Monthly     Active      Personal           Locker & Sauna Access     Renewal  Status\n                     Fee         Members     Training                                     Rate\n\n    Basic Tier       $29.99 /      4,200     Not Included       Standard Locker Only      68.5%     Active\n                     mo\n\n    Silver Tier      $49.99 /      5,150     1 Session /        Reserved Locker           82.1%     Popular\n                     mo                      Month\n\n    Gold Tier        $79.99 /      2,100     4 Sessions /       VIP Locker + Sauna +      91.4%     High Margin\n                     mo                      Month              Cold Plunge\n\n    Corporate        $39.99 /      1,000     Group Sessions     Standard Access           88.0%     B2B Contract\n    Plan             mo\n\n    Student Pass     $19.99 /    850         Discount Add-      Standard Access           61.2%     Discounted\n                     mo                      on\n\n    5. EQUIPMENT & FACILITY ZONE CAPACITY UTILIZATION\n\n\n                               Equipment & Zone Peak Hours Utilization Breakdown\n\n               Free Weights                                                     88%\n\n             Cable Machines                                                     81%\n\n    Treadmills & Cardio        72%\n\n\nFunctional Crossfit    65%\n\n   Recovery & Sauna    54%\n\n    0                  20  40  60  80  100\n                           Peak Capacity Utilization Rate (%)\n\n\n\n    6. EQUIPMENT MAINTENANCE & ASSET SCHEDULE\n\n    Asset Category                    Total Units     Avg. Age (Yrs)     Last Inspection     Next Maintenance  Status Condition\n\n    Free Weights & Dumbbells          140 Sets        1.2                May 10, 2026        Nov 10, 2026      Optimal\n\n    Treadmills & Ellipticals          85 Units        2.1                Jun 02, 2026        Aug 15, 2026      Servicing Due\n\n    Cable & Selectorized Machines     62 Units        1.8                Apr 18, 2026        Oct 18, 2026      Optimal\n\n\n\n    Sudheer Gym — Confidential Parsing Benchmark Document    Page 2 of 4\n\n---\n\nAsset Category                     Total Units     Avg. Age (Yrs)     Last Inspection     Next Maintenance  Status Condition\n\nCrossfit Rig & Functional Rack     12 Stations     0.8                Jul 01, 2026        Jan 01, 2027      New Equipment\n\n\nLlamaParse Test Note (Page 2): Tests parsing of multi-row tabular HTML structures with inline badges, numeric data extraction,\nhorizontal bar chart reading, and unit values.\n\n\n\n\n\n\n\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 3 of 4\n\n---\n\nSUDHEER GYM                                 Section: Financials\n                                            Confidentiality: Internal Use\nPage 3: Branch Financial Breakdown & Roadmap\n\n\n7. DETAILED BRANCH PERFORMANCE & PROFITABILITY MATRIX\n\nFinancial results and spatial efficiency across all operating Sudheer Gym facility locations.\n\n Branch Location      Facility Size     Monthly Revenue     Operating Cost     Net Profit     Margin (%)     Rev / Sq Ft\n\n Downtown Main        15,000 sq ft      $42,000             $28,500            $13,500        32.1%          $2.80\n\n Westside Hub         10,000 sq ft      $28,500             $20,520            $7,980         28.0%          $2.85\n\n Eastside Express     6,500 sq ft       $18,200             $13,650            $4,550         25.0%          $2.80\n\n North Campus         12,000 sq ft      $34,000             $23,800            $10,200        30.0%          $2.83\n\n Southbay Plaza       11,500 sq ft      $31,500             $22,365            $9,135         29.0%          $2.74\n\n Metro Central        14,000 sq ft      $39,800             $27,064            $12,736        32.0%          $2.84\n\n Total / Average      69,000 sq ft      $194,000            $135,899           $58,101        29.9%          $2.81\n\n8. STRATEGIC MILESTONES & EXPANSION ROADMAP (2026 - 2027)\n\n\nCompleted Milestones                                      Upcoming Initiatives\n\n • Q1 2026: Deployed unified cloud CRM across all 8        • Q3 2026: Groundbreaking for 2 new suburban\n branches for synchronized membership tracking.            franchise outlets (Green Valley & Riverdale).\n • Q2 2026: Launched state-of-the-art recovery zone at     • Q4 2026: Introduction of AI-powered workout\n Downtown Main (Cryotherapy & Infra-red Sauna).            tracking in the Sudheer Gym mobile app.\n • Q2 2026: Reached benchmark 12,000+ active members       • Q1 2027: Target revenue benchmark of $250,000 /\n network-wide.                                             month.\n\n9. COMPLIANCE & DOCUMENT VERIFICATION\n\nThis document has been artificially generated specifically for software benchmarking, document intelligence testing, and OCR/LLM\nlayout parsing evaluation (LlamaParse, Unstructured, Marker, AWS Textract). All names, values, figures, and charts are structured to\nevaluate multi-column extraction, footer recognition, table cell merging, and financial aggregation parsing accuracy.\n\n LlamaParse Test Note (Page 3): Tests multi-page boundary isolation, table footer summary row extraction (`tfoot`), currency formatting\n parsing, and compliance section paragraph extraction.\n\n\n\n\n\n\n\n\n\n\nSudheer Gym — Confidential Parsing Benchmark Document    Page 4 of 4",
+  "debug": null
+}
