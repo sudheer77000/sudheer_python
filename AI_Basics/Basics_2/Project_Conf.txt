@@ -43,3 +43,16 @@ llama-parse
 faiss-cpu
 llama-cloud>=1.0
 langchain-chroma
+pinecone
+langchain_pinecone
+langchain-qdrant
+qdrant-client
+langchain_experimental
+streamlit==1.41.1
+groq
+python-dotenv
+ddgs
+wikipedia
+requests
+langgraph
+crewai
