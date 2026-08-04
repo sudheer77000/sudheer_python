@@ -3,11 +3,12 @@ from decimal import Decimal
 from langgraph.graph import StateGraph, END
 from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+load_dotenv()
 
-llm = ChatOllama(
-    model="qwen2.5:3b",
-    temperature=0
-    )
+llm = ChatOllama(model="qwen2.5:3b",temperature=0)
+#llm = ChatGroq(model="llama-3.1-8b-instant",temperature= 0,max_tokens=1000)
 
 class RefundValidation(TypedDict):
     customerId : str
@@ -19,6 +20,7 @@ class RefundValidation(TypedDict):
     is_valid_order: bool
     is_refund_amount_valid: bool
     refund_reason_score: Decimal
+    human_decision: str
     request_status: str
 
 
@@ -76,6 +78,8 @@ def refund_reason_validation(state: RefundValidation):
 
     Now analyze the actual refund reason.
 
+    If refund description is irrelavent to the product, provide score as 0
+
     """
 
 
@@ -86,19 +90,69 @@ def refund_reason_validation(state: RefundValidation):
         "refund_reason_score": int(response.content)
     }
 
+# Agent 5 -- Human Review
+def human_review_agent(state: RefundValidation):
 
-# Agent 5 -- Final Decision
-def authorization_agent(state: RefundValidation):
+    print("\n========================================")
+    print(" HUMAN REVIEW REQUIRED")
+    print("========================================")
 
-    print("Agent 5 - Final Decision")
+    print(f"Customer ID        : {state['customerId']}")
+    print(f"Order ID           : {state['orderId']}")
+    print(f"Refund Amount      : {state['refundAmount']}")
+    print(f"Refund Reason      : {state['refundReason']}")
+    print(f"LLM Score          : {state['refund_reason_score']}")
 
-    if state["is_valid_customer"] and state["is_valid_order"] and state["is_refund_amount_valid"] and state["refund_reason_score"]  > 90:
-        request_status = "APPROVED"
-    else:
-        request_status = "REJECTED"
+    decision = input(
+        "\nApprove Refund? (YES/NO): "
+    ).strip().upper()
 
     return {
-        "request_status": request_status
+        "human_decision": decision
+    }
+
+def route_after_llm(state: RefundValidation):
+
+    score = state["refund_reason_score"]
+
+    if score >= 75:
+        return "approve"
+
+    elif score >= 40:
+        return "human_review"
+
+    else:
+        return "reject"
+
+# Agent 6 -- Final Decision
+# Agent 6 -- Final Decision
+def authorization_agent(state: RefundValidation):
+
+    print("Agent 6 - Final Decision")
+
+    if not (
+        state["is_valid_customer"]
+        and state["is_valid_order"]
+        and state["is_refund_amount_valid"]
+    ):
+        return {
+            "request_status": "REJECTED"
+        }
+
+    if state["refund_reason_score"] >= 75:
+
+        return {
+            "request_status": "APPROVED"
+        }
+
+    if state.get("human_decision") == "YES":
+
+        return {
+            "request_status": "APPROVED"
+        }
+
+    return {
+        "request_status": "REJECTED"
     }
 
 
@@ -110,14 +164,27 @@ builder.add_node("Step-1", customer_validation)
 builder.add_node("Step-2", order_validation)
 builder.add_node("Step-3", refund_validation)
 builder.add_node("Step-4", refund_reason_validation)
-builder.add_node("Step-5", authorization_agent)
+builder.add_node("Step-5", human_review_agent)
+builder.add_node("Step-6", authorization_agent)
 
 builder.set_entry_point("Step-1")
+
 builder.add_edge("Step-1", "Step-2")
 builder.add_edge("Step-2", "Step-3")
 builder.add_edge("Step-3", "Step-4")
-builder.add_edge("Step-4", "Step-5")
-builder.add_edge("Step-5", END)
+
+builder.add_conditional_edges(
+    "Step-4",
+    route_after_llm,
+    {
+        "approve": "Step-6",
+        "human_review": "Step-5",
+        "reject": "Step-6"
+    }
+)
+
+builder.add_edge("Step-5", "Step-6")
+builder.add_edge("Step-6", END)
 
 graph = builder.compile()
 
@@ -126,7 +193,7 @@ graph = builder.compile()
 # -------------------------
 customerId = input("Enter Customer Id : ")
 orderId = input("Enter Order Id : ")
-refundAmount = int(input("Enter Refund Amount : "))
+refundAmount = Decimal(input("Enter Refund Amount : "))
 refundReason = input("Enter Refund Reason : ")
 
 
