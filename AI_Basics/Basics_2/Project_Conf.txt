@@ -56,3 +56,14 @@ wikipedia
 requests
 langgraph
 crewai
+fastapi
+uvicorn
+httpx
+pymysql
+sqlalchemy
+stripe
+sqlmodel
+python-multipart
+passlib==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]

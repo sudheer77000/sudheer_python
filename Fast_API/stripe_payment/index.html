@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stripe Payment</title>
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            width: 400px;
+            margin: 50px auto;
+        }
+
+        #card-element {
+            border: 1px solid #ccc;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h2>Pay $50</h2>
+
+<div id="card-element"></div>
+
+<button id="pay-button">
+    Pay $50
+</button>
+
+<div id="message"></div>
+
+
+<script>
+
+const stripe = Stripe(
+    "pk_test_51SuteT18S6BWqI7fnZXAH7wl4q3x5iLyf6JwIU0si6KY1aK3whfzEaLFK05OZrUYNMfYRCaFxfZfFS5wXc9plKx700cVZXWu2m"
+);
+
+const elements = stripe.elements();
+
+const card = elements.create("card");
+
+card.mount("#card-element");
+
+
+document
+    .getElementById("pay-button")
+    .addEventListener("click", async () => {
+
+        document.getElementById("message").innerText =
+            "Processing payment...";
+
+
+        // Create PaymentMethod from card details
+        const result = await stripe.createPaymentMethod({
+            type: "card",
+            card: card
+        });
+
+
+        if (result.error) {
+
+            document.getElementById("message").innerText =
+                result.error.message;
+
+            return;
+        }
+
+
+        // Send PaymentMethod ID to FastAPI
+        const response = await fetch(
+            "/create-payment",
+            {
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    payment_method_id:
+                        result.paymentMethod.id,
+
+                    amount: 5000
+                })
+            }
+        );
+
+
+        const data = await response.json();
+
+
+        if (data.status === "succeeded") {
+
+            document.getElementById("message").innerText =
+                "Payment successful! Payment ID: "
+                + data.payment_id;
+
+        } else {
+
+            document.getElementById("message").innerText =
+                "Payment status: "
+                + data.status;
+
+        }
+
+    });
+
+</script>
+
+</body>
+
+</html>
