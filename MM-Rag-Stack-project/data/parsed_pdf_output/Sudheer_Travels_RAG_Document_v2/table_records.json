@@ -1,0 +1,118 @@
+[
+  {
+    "page_number": 5,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "BUS TYPE",
+        "CONFIGURATION",
+        "STANDARD AMENITIES PROVIDED"
+      ],
+      [
+        "Volvo B11R\nMulti-Axle AC\nSleeper",
+        "2+1 Berth Layout",
+        "Air Conditioning, Blankets, Pillows, Water\nBottle, USB Charging, Reading Light,\nGPS Tracking, Onboard Washroom,\nEntertainment System."
+      ],
+      [
+        "AC Sleeper\n(Standard)",
+        "2+1 Berth Layout",
+        "Air Conditioning, Blankets, Water Bottle,\nUSB Charging, Reading Light, GPS\nTracking."
+      ],
+      [
+        "AC Seater\n(Semi-Sleeper)",
+        "2+2 Pushback\nSeats",
+        "Air Conditioning, Water Bottle, USB\nCharging, GPS Tracking, Calf Rests."
+      ]
+    ],
+    "markdown": "| BUS TYPE       | CONFIGURATION    | STANDARD AMENITIES PROVIDED                |\n|:---------------|:-----------------|:-------------------------------------------|\n| Volvo B11R     | 2+1 Berth Layout | Air Conditioning, Blankets, Pillows, Water |\n| Multi-Axle AC  |                  | Bottle, USB Charging, Reading Light,       |\n| Sleeper        |                  | GPS Tracking, Onboard Washroom,            |\n|                |                  | Entertainment System.                      |\n| AC Sleeper     | 2+1 Berth Layout | Air Conditioning, Blankets, Water Bottle,  |\n| (Standard)     |                  | USB Charging, Reading Light, GPS           |\n|                |                  | Tracking.                                  |\n| AC Seater      | 2+2 Pushback     | Air Conditioning, Water Bottle, USB        |\n| (Semi-Sleeper) | Seats            | Charging, GPS Tracking, Calf Rests.        |",
+    "csv": "BUS TYPE,CONFIGURATION,STANDARD AMENITIES PROVIDED\r\n\"Volvo B11R\nMulti-Axle AC\nSleeper\",2+1 Berth Layout,\"Air Conditioning, Blankets, Pillows, Water\nBottle, USB Charging, Reading Light,\nGPS Tracking, Onboard Washroom,\nEntertainment System.\"\r\n\"AC Sleeper\n(Standard)\",2+1 Berth Layout,\"Air Conditioning, Blankets, Water Bottle,\nUSB Charging, Reading Light, GPS\nTracking.\"\r\n\"AC Seater\n(Semi-Sleeper)\",\"2+2 Pushback\nSeats\",\"Air Conditioning, Water Bottle, USB\nCharging, GPS Tracking, Calf Rests.\"\r\n"
+  },
+  {
+    "page_number": 7,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "ROUTE (FROM\nKAKINADA)",
+        "BUS TYPE",
+        "STANDARD BASE\nFARE (INR)",
+        "PEAK/FESTIVAL\nFARE (INR)"
+      ],
+      [
+        "Kakinada to\nHyderabad",
+        "Volvo AC\nSleeper",
+        "₹1,400 - ₹1,800",
+        "₹2,500 - ₹3,500"
+      ],
+      [
+        "Kakinada to\nHyderabad",
+        "Non-AC\nSleeper",
+        "₹900 - ₹1,100",
+        "₹1,500 - ₹2,200"
+      ],
+      [
+        "Kakinada to\nBangalore",
+        "Volvo AC\nSleeper",
+        "₹1,800 - ₹2,400",
+        "₹3,000 - ₹4,500"
+      ],
+      [
+        "Kakinada to Chennai",
+        "AC Sleeper",
+        "₹1,500 - ₹2,000",
+        "₹2,200 - ₹3,200"
+      ],
+      [
+        "Kakinada to\nVisakhapatnam",
+        "AC Seater",
+        "₹400 - ₹600",
+        "₹800 - ₹1,200"
+      ],
+      [
+        "Kakinada to Mumbai/\nPune",
+        "Volvo AC\nSleeper",
+        "₹2,500 - ₹3,200",
+        "₹4,000 - ₹5,500"
+      ]
+    ],
+    "markdown": "| ROUTE (FROM         | BUS TYPE   | STANDARD BASE   | PEAK/FESTIVAL   |\n| KAKINADA)           |            | FARE (INR)      | FARE (INR)      |\n|:--------------------|:-----------|:----------------|:----------------|\n| Kakinada to         | Volvo AC   | ₹1,400 - ₹1,800 | ₹2,500 - ₹3,500 |\n| Hyderabad           | Sleeper    |                 |                 |\n| Kakinada to         | Non-AC     | ₹900 - ₹1,100   | ₹1,500 - ₹2,200 |\n| Hyderabad           | Sleeper    |                 |                 |\n| Kakinada to         | Volvo AC   | ₹1,800 - ₹2,400 | ₹3,000 - ₹4,500 |\n| Bangalore           | Sleeper    |                 |                 |\n| Kakinada to Chennai | AC Sleeper | ₹1,500 - ₹2,000 | ₹2,200 - ₹3,200 |\n| Kakinada to         | AC Seater  | ₹400 - ₹600     | ₹800 - ₹1,200   |\n| Visakhapatnam       |            |                 |                 |\n| Kakinada to Mumbai/ | Volvo AC   | ₹2,500 - ₹3,200 | ₹4,000 - ₹5,500 |\n| Pune                | Sleeper    |                 |                 |",
+    "csv": "\"ROUTE (FROM\nKAKINADA)\",BUS TYPE,\"STANDARD BASE\nFARE (INR)\",\"PEAK/FESTIVAL\nFARE (INR)\"\r\n\"Kakinada to\nHyderabad\",\"Volvo AC\nSleeper\",\"₹1,400 - ₹1,800\",\"₹2,500 - ₹3,500\"\r\n\"Kakinada to\nHyderabad\",\"Non-AC\nSleeper\",\"₹900 - ₹1,100\",\"₹1,500 - ₹2,200\"\r\n\"Kakinada to\nBangalore\",\"Volvo AC\nSleeper\",\"₹1,800 - ₹2,400\",\"₹3,000 - ₹4,500\"\r\nKakinada to Chennai,AC Sleeper,\"₹1,500 - ₹2,000\",\"₹2,200 - ₹3,200\"\r\n\"Kakinada to\nVisakhapatnam\",AC Seater,₹400 - ₹600,\"₹800 - ₹1,200\"\r\n\"Kakinada to Mumbai/\nPune\",\"Volvo AC\nSleeper\",\"₹2,500 - ₹3,200\",\"₹4,000 - ₹5,500\"\r\n"
+  },
+  {
+    "page_number": 10,
+    "table_index": 1,
+    "raw_table": [
+      [
+        "TIME BEFORE DEPARTURE",
+        "CANCELLATION FEE",
+        "REFUND AMOUNT"
+      ],
+      [
+        "More than 48 hours",
+        "10% of Base Fare",
+        "90% of Base Fare"
+      ],
+      [
+        "Between 24 hours to 48 hours",
+        "25% of Base Fare",
+        "75% of Base Fare"
+      ],
+      [
+        "Between 12 hours to 24 hours",
+        "50% of Base Fare",
+        "50% of Base Fare"
+      ],
+      [
+        "Between 4 hours to 12 hours",
+        "75% of Base Fare",
+        "25% of Base Fare"
+      ],
+      [
+        "Less than 4 hours or No Show",
+        "100% of Base Fare",
+        "No Refund"
+      ]
+    ],
+    "markdown": "| TIME BEFORE DEPARTURE        | CANCELLATION FEE   | REFUND AMOUNT    |\n|:-----------------------------|:-------------------|:-----------------|\n| More than 48 hours           | 10% of Base Fare   | 90% of Base Fare |\n| Between 24 hours to 48 hours | 25% of Base Fare   | 75% of Base Fare |\n| Between 12 hours to 24 hours | 50% of Base Fare   | 50% of Base Fare |\n| Between 4 hours to 12 hours  | 75% of Base Fare   | 25% of Base Fare |\n| Less than 4 hours or No Show | 100% of Base Fare  | No Refund        |",
+    "csv": "TIME BEFORE DEPARTURE,CANCELLATION FEE,REFUND AMOUNT\r\nMore than 48 hours,10% of Base Fare,90% of Base Fare\r\nBetween 24 hours to 48 hours,25% of Base Fare,75% of Base Fare\r\nBetween 12 hours to 24 hours,50% of Base Fare,50% of Base Fare\r\nBetween 4 hours to 12 hours,75% of Base Fare,25% of Base Fare\r\nLess than 4 hours or No Show,100% of Base Fare,No Refund\r\n"
+  }
+]

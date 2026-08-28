@@ -1,0 +1,95 @@
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output", "timestamp": "2026-08-28T17:24:03.329126Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output", "timestamp": "2026-08-28T17:31:26.684177Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output", "timestamp": "2026-08-28T17:31:37.196365Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\uploads\\Sudheer_Travels_RAG_Document_v2.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output\\Sudheer_Travels_RAG_Document_v2", "timestamp": "2026-08-28T17:39:00.690899Z", "level": "info", "event": "pdf_parser_initialized"}
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\uploads\\Sudheer_Travels_RAG_Document_v2.pdf", "timestamp": "2026-08-28T17:39:00.690899Z", "level": "info", "event": "pdf_parsing_started"}
+{"pages": 14, "images": 0, "timestamp": "2026-08-28T17:39:12.395836Z", "level": "info", "event": "pdf_content_extracted"}
+{"tables": 3, "timestamp": "2026-08-28T17:39:12.850962Z", "level": "info", "event": "pdf_tables_extracted"}
+{"documents": 17, "timestamp": "2026-08-28T17:39:12.850962Z", "level": "info", "event": "langchain_documents_created"}
+{"output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output\\Sudheer_Travels_RAG_Document_v2", "timestamp": "2026-08-28T17:39:12.862056Z", "level": "info", "event": "parser_outputs_saved"}
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\uploads\\Sudheer_Travels_RAG_Document_v2.pdf", "timestamp": "2026-08-28T17:39:12.862056Z", "level": "info", "event": "pdf_parsing_completed"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections "HTTP/1.1 200 OK"
+{"collection_name": "sudheer-travels-collections", "timestamp": "2026-08-28T17:44:35.861289Z", "level": "info", "event": "qdrant_collection_created"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "sudheer-travels-collections", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-28T17:44:43.705371Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points?wait=true "HTTP/1.1 200 OK"
+{"collection_name": "sudheer-travels-collections", "source_document_count": 1, "input_document_count": 17, "indexed_document_count": 21, "inserted_point_count": 21, "timestamp": "2026-08-28T17:44:46.614430Z", "level": "info", "event": "document_ingestion_completed"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "sudheer-travels-collections", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-28T17:52:30.914452Z", "level": "info", "event": "retriever_initialized"}
+{"model_name": "gpt-4.1-mini", "collection_name": "sudheer-travels-collections", "max_images": 4, "timestamp": "2026-08-28T17:52:30.997780Z", "level": "info", "event": "generation_initialized"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/query "HTTP/1.1 200 OK"
+{"query": "What is cancellation policies for Sudheer Travels?", "k": 6, "result_count": 6, "timestamp": "2026-08-28T17:52:32.102370Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "What is cancellation policies for Sudheer Travels?", "retrieved_documents": 6, "image_count": 0, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-28T17:52:32.109317Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "What is cancellation policies for Sudheer Travels?", "retrieved_documents": 6, "used_images": 0, "timestamp": "2026-08-28T17:52:38.241767Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/query "HTTP/1.1 200 OK"
+{"query": "Pets are allowed in Sudheer Travels?", "k": 6, "result_count": 6, "timestamp": "2026-08-28T17:53:19.199992Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "Pets are allowed in Sudheer Travels?", "retrieved_documents": 6, "image_count": 0, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-28T17:53:19.201131Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "Pets are allowed in Sudheer Travels?", "retrieved_documents": 6, "used_images": 0, "timestamp": "2026-08-28T17:53:20.969280Z", "level": "info", "event": "generation_completed"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/query "HTTP/1.1 200 OK"
+{"query": "Can I drink Alcohol and Travel?", "k": 6, "result_count": 6, "timestamp": "2026-08-28T17:54:00.575747Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "Can I drink Alcohol and Travel?", "retrieved_documents": 6, "image_count": 0, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-28T17:54:00.576905Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "Can I drink Alcohol and Travel?", "retrieved_documents": 6, "used_images": 0, "timestamp": "2026-08-28T17:54:02.976304Z", "level": "info", "event": "generation_completed"}
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\Client_Contracts_Policies_and_Incident_Records.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output", "timestamp": "2026-08-28T17:54:34.900076Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/exists "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/scroll "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/sudheer-travels-collections/points/scroll "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\uploads\\Sudheer_Travels_RAG_Document_v2.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output\\Sudheer_Travels_RAG_Document_v2", "timestamp": "2026-08-28T17:55:07.749125Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+{"pdf_path": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\uploads\\Sudheer_Travels_RAG_Document_v2.pdf", "output_dir": "D:\\VS\\sudheer_python\\sudheer_python\\MM-Rag-Stack-project\\data\\parsed_pdf_output\\Sudheer_Travels_RAG_Document_v2", "timestamp": "2026-08-28T17:55:57.707620Z", "level": "info", "event": "pdf_parser_initialized"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-document", "timestamp": "2026-08-28T17:56:36.441356Z", "level": "info", "event": "qdrant_collection_created"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/index?wait=true "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-document", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-28T17:56:38.587564Z", "level": "info", "event": "ingestion_initialized"}
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/points/delete?wait=true "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: PUT https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/points?wait=true "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-document", "source_document_count": 1, "input_document_count": 17, "indexed_document_count": 21, "inserted_point_count": 21, "timestamp": "2026-08-28T17:56:41.325299Z", "level": "info", "event": "document_ingestion_completed"}
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/exists "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+HTTP Request: GET https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+{"collection_name": "mm-rag-document", "embedding_model": "text-embedding-3-large", "timestamp": "2026-08-28T17:57:00.449069Z", "level": "info", "event": "retriever_initialized"}
+{"model_name": "gpt-4.1-mini", "collection_name": "mm-rag-document", "max_images": 4, "timestamp": "2026-08-28T17:57:00.451687Z", "level": "info", "event": "generation_initialized"}
+HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+HTTP Request: POST https://3570a2ac-6219-44de-a708-808b03fbb1c0.us-east-1-1.aws.cloud.qdrant.io:6333/collections/mm-rag-document/points/query "HTTP/1.1 200 OK"
+{"query": "Is GPS tracker available?", "k": 6, "result_count": 6, "timestamp": "2026-08-28T17:57:01.294721Z", "level": "info", "event": "documents_retrieved_with_scores"}
+{"query": "Is GPS tracker available?", "retrieved_documents": 6, "image_count": 0, "model_name": "gpt-4.1-mini", "timestamp": "2026-08-28T17:57:01.295733Z", "level": "info", "event": "generation_started"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"query": "Is GPS tracker available?", "retrieved_documents": 6, "used_images": 0, "timestamp": "2026-08-28T17:57:03.088072Z", "level": "info", "event": "generation_completed"}
