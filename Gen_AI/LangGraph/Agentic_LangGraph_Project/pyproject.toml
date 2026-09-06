@@ -1,0 +1,25 @@
+[project]
+name = "agentic-langgraph-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sudheer77000", email = "sudheergundra@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "langchain>=1.4.0",
+    "langchain-groq>=1.1.3",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.11",
+    "langsmith>=0.12.2",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+agentic-langgraph-project = "agentic_langgraph_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
