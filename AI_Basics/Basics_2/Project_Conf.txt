@@ -70,3 +70,4 @@ python-jose[cryptography]
 pydantic
 arxiv
 wikipedia
+langchain-tavily
