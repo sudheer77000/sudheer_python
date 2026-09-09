@@ -71,3 +71,4 @@ pydantic
 arxiv
 wikipedia
 langchain-tavily
+langgraph-checkpoint-sqlite

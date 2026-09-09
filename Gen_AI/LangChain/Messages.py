@@ -2,7 +2,8 @@ from langchain_ollama import ChatOllama
 from langchain_core.messages import (
     HumanMessage,
     AIMessage,
-    ToolMessage
+    ToolMessage,
+    SystemMessage
 )
 from langchain_core.tools import tool
 
@@ -15,6 +16,7 @@ from langchain_core.tools import tool
 def add(a: int, b: int) -> int:
     """Add two numbers."""
     return a + b
+    
 
 
 # ============================================================
@@ -55,8 +57,8 @@ print(messages[-1])
 # ============================================================
 # 5. AI MESSAGE
 # ============================================================
-
-ai_msg = llm_with_tools.invoke(messages)
+ 
+ai_msg: AIMessage = llm_with_tools.invoke(messages)
 
 messages.append(ai_msg)
 
