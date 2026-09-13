@@ -1,5 +1,7 @@
 from langchain_ollama import ChatOllama
 from langchain_core.tools import tool
+from cursor_client import CursorLLM
+
 
 
 # ============================================================
@@ -27,6 +29,10 @@ llm = ChatOllama(
     model="qwen2.5:3b",
     temperature=0
 )
+
+#llm = CursorLLM(
+#    model="gemini-3.7-flash"
+#)
 
 
 # ============================================================

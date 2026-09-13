@@ -72,3 +72,5 @@ arxiv
 wikipedia
 langchain-tavily
 langgraph-checkpoint-sqlite
+cursor-sdk
+langchain-sarvam

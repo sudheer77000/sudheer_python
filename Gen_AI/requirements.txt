@@ -9,3 +9,4 @@ langchain-community
 langchain-huggingface
 langchain-chroma
 sentence-transformers
+langchain-sarvam

@@ -1,0 +1,5 @@
+langchain-groq
+langchain-mcp-adapters==0.3.2
+mcp==1.30.0
+langgraph
+python-dotenv

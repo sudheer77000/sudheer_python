@@ -16,6 +16,11 @@ dependencies = [
     { name = "python-dotenv" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.3.0" },
@@ -26,6 +31,9 @@ requires-dist = [
     { name = "langsmith", specifier = ">=0.12.2" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.3.0" }]
 
 [[package]]
 name = "aiohappyeyeballs"
