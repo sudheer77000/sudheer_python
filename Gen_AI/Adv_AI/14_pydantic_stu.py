@@ -18,8 +18,10 @@ llm = ChatGroq(
 
 structured_llm = llm.with_structured_output(AnimalInfo)
 
+Sentence = input("Please Enter the Sentence : ")
+
 result = structured_llm.invoke(
-    "The cat is sitting on the mat."
+    Sentence
 )
 
 print(result)
