@@ -12,7 +12,7 @@ llm = ChatOpenAI(
     temperature=0
 )
 
-response = llm.invoke("Explain LangChain in simple terms")
+response = llm.invoke("Explain About Emaratech Dubai?")
 print(response)
 print("===" * 25)
 print(response.content)
