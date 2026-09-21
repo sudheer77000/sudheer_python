@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "hello_agent": "./agent.py:graph"
+  },
+   "env": "D:/VS/sudheer_python/sudheer_python/.env"
+}
