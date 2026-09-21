@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "tool_agent": "./8_LangSmith_v4.py:app"
+  },
+  "env": "C:/Sudheer/Agentic_AI/workspace/python/.env"
+}
