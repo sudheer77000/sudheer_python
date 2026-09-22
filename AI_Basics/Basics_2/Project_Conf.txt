@@ -76,3 +76,4 @@ cursor-sdk
 langchain-sarvam
 typesafe-sdk
 langgraph-cli[inmem]
+langchain-cerebras
