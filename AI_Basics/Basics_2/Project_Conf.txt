@@ -1,3 +1,8 @@
+# Python: 3.11.15
+
+# =========================
+# ML / NLP
+# =========================
 scikit-learn==1.4.2
 rank-bm25==0.2.2
 numpy==1.26.4
@@ -10,9 +15,18 @@ transformers==4.46.3
 datasets>=2.19.0
 pillow>=10.2.0
 mteb
-ipykernel
+accelerate==0.34.2
+bitsandbytes
+faiss-cpu
 nltk
-pyyaml
+pandas
+pytesseract
+
+# =========================
+# LangChain
+# =========================
+langchain
+langchain-community
 langchain_google_genai
 langchain-openai
 langchain-groq
@@ -20,60 +34,98 @@ langchain-openrouter
 langchain-huggingface
 langchain-anthropic
 langchain-ollama
-langchain
-langchain-community
-pypdf 
-python-docx 
-pandas 
-openpyxl 
-beautifulsoup4
-docx2txt 
-jq 
+langchain-experimental
+langchain-chroma
+langchain_pinecone
+langchain-qdrant
+langchain-tavily
+langchain-sarvam
+langchain-cerebras
+
+# =========================
+# LangGraph
+# =========================
+langgraph
+langgraph-checkpoint-sqlite
+langgraph-cli[inmem]
+
+# =========================
+# Agents
+# =========================
+crewai
+
+# =========================
+# Vector DB / Retrieval
+# =========================
+pinecone
+qdrant-client
+
+# =========================
+# Google / LLM SDKs
+# =========================
+google-genai
+groq
+llama-parse
+llama-cloud>=1.0
+cursor-sdk
+typesafe-sdk
+
+# =========================
+# Documents / PDF
+# =========================
+pypdf
+python-docx
+docx2txt
 unstructured
 markdown
 pymupdf
 pdfplumber
-tabulate
-pytesseract
 docling
-accelerate==0.34.2
-bitsandbytes
-google-genai
-llama-parse
-faiss-cpu
-llama-cloud>=1.0
-langchain-chroma
-pinecone
-langchain_pinecone
-langchain-qdrant
-qdrant-client
-langchain_experimental
-streamlit==1.41.1
-groq
+beautifulsoup4
+jq
+
+# =========================
+# Data / Utilities
+# =========================
+openpyxl
+tabulate
+pyyaml
+requests
 python-dotenv
 ddgs
 wikipedia
-requests
-langgraph
-crewai
+arxiv
+ipykernel
+
+# =========================
+# Web / API
+# =========================
 fastapi
-uvicorn
+uvicorn[standard]
 httpx
+python-multipart
+
+# =========================
+# Database
+# =========================
 pymysql
 sqlalchemy
-stripe
 sqlmodel
-python-multipart
+
+# =========================
+# Auth / Payments
+# =========================
+stripe
 passlib==1.7.4
 bcrypt==4.0.1
 python-jose[cryptography]
+
+# =========================
+# UI
+# =========================
+streamlit==1.41.1
+
+# =========================
+# Validation
+# =========================
 pydantic
-arxiv
-wikipedia
-langchain-tavily
-langgraph-checkpoint-sqlite
-cursor-sdk
-langchain-sarvam
-typesafe-sdk
-langgraph-cli[inmem]
-langchain-cerebras
