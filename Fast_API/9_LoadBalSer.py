@@ -3,10 +3,11 @@ import time
 from datetime import datetime
 
 from fastapi import FastAPI
+from anyio import to_thread
 
 app = FastAPI()
 
-
+to_thread.current_default_thread_limiter().total_tokens = 2
 @app.get("/test/{request_id}")
 async def test(request_id: int):
 
@@ -20,7 +21,7 @@ async def test(request_id: int):
     )
 
     # Simulate slow I/O operation
-    await asyncio.sleep(2)
+    await asyncio.sleep(20)
 
     # End time
     end_perf = time.perf_counter()
