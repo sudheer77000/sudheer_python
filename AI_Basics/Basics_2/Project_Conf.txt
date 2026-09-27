@@ -48,6 +48,7 @@ langchain-cerebras
 langgraph
 langgraph-checkpoint-sqlite
 langgraph-cli[inmem]
+langmem
 
 # =========================
 # Agents
@@ -104,6 +105,7 @@ fastapi
 uvicorn[standard]
 httpx
 python-multipart
+fastapi[standard]
 
 # =========================
 # Database

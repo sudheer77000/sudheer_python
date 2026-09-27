@@ -3,42 +3,42 @@ import time
 from datetime import datetime
 
 from fastapi import FastAPI
-from anyio import to_thread
 
 app = FastAPI()
 
-to_thread.current_default_thread_limiter().total_tokens = 2
+# Allow only 2 requests to execute the protected section at once
+semaphore = asyncio.Semaphore(2)
+
+
 @app.get("/test/{request_id}")
 async def test(request_id: int):
+    async with semaphore:
+        start_perf = time.perf_counter()
+        start_time = datetime.now()
 
-    # Start time
-    start_perf = time.perf_counter()
-    start_time = datetime.now()
+        print(
+            f"[START] request_id={request_id} "
+            f"time={start_time.strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}"
+        )
 
-    print(
-        f"[START] request_id={request_id} "
-        f"time={start_time.strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}"
-    )
+        # Simulate slow I/O operation
+        await asyncio.sleep(20)
 
-    # Simulate slow I/O operation
-    await asyncio.sleep(20)
+        end_perf = time.perf_counter()
+        end_time = datetime.now()
 
-    # End time
-    end_perf = time.perf_counter()
-    end_time = datetime.now()
+        elapsed = end_perf - start_perf
 
-    elapsed = end_perf - start_perf
+        print(
+            f"[END]   request_id={request_id} "
+            f"time={end_time.strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]} "
+            f"elapsed={elapsed:.3f} seconds"
+        )
 
-    print(
-        f"[END]   request_id={request_id} "
-        f"time={end_time.strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]} "
-        f"elapsed={elapsed:.3f} seconds"
-    )
-
-    return {
-        "request_id": request_id,
-        "message": "Done",
-        "start_time": start_time.isoformat(),
-        "end_time": end_time.isoformat(),
-        "elapsed_seconds": round(elapsed, 3),
-    }
+        return {
+            "request_id": request_id,
+            "message": "Done",
+            "start_time": start_time.isoformat(),
+            "end_time": end_time.isoformat(),
+            "elapsed_seconds": round(elapsed, 3),
+        }

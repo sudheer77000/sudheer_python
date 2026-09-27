@@ -60,7 +60,11 @@ print("Second result:", result2)
 
 # Inspect memory
 print("\nSaved checkpoints:")
-
+print("==" * 75)
+print(checkpointer)
+for checkpoint in checkpointer.list({"configurable": {"thread_id": "user123"}}):
+    print(checkpoint)
+print("==" * 75)
 for checkpoint in checkpointer.list(
     {"configurable": {"thread_id": "user123"}}
 ):
