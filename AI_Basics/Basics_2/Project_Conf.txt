@@ -97,6 +97,7 @@ ddgs
 wikipedia
 arxiv
 ipykernel
+youtube-transcript-api
 
 # =========================
 # Web / API
