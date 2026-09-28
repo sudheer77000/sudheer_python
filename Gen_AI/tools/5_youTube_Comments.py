@@ -5,7 +5,7 @@ import os
 load_dotenv()
 
 API_KEY = os.getenv("YOUTUBE_API_KEY")
-VIDEO_ID = "dQw4w9WgXcQ"
+VIDEO_ID = "PtG9_Zbm7Jw"
 
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
