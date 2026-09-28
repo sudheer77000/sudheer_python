@@ -70,6 +70,7 @@ llama-parse
 llama-cloud>=1.0
 cursor-sdk
 typesafe-sdk
+google-api-python-client
 
 # =========================
 # Documents / PDF
