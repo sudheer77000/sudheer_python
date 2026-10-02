@@ -2,10 +2,16 @@ import os
 import logging
 from typing import TypedDict
 from langsmith import Client
+from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
 from dotenv import load_dotenv
 
 load_dotenv()
+
+model = ChatOpenAI(
+    model="gpt-4.1-mini",
+    temperature=0,
+)
 
 # 1. Enable console logging for LangSmith tracing
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
@@ -26,6 +32,8 @@ client = Client()
 class State(TypedDict):
   counter: int
   message: str
+  llm_question: str
+  llm_answer: str
 
 
 # 4. Define node functions that update the state
@@ -45,6 +53,13 @@ def quadruple_Node(state: State):
   return {"counter": state["counter"] * 4, "message": "Quadruple the counter"}
 
 
+
+def llm_call(state: State):
+  print("####################")
+  print(model.invoke("Explain About AI Agents"))
+  return {"llm_answer" : model.invoke("Explain About AI Agents")}
+  
+
 # 5. Build the graph structure
 workflow = StateGraph(State)
 
@@ -52,13 +67,15 @@ workflow.add_node("increment", increment_node)
 workflow.add_node("double", double_node)
 workflow.add_node("triple", triple_node)
 workflow.add_node("quadruple", quadruple_Node)
+workflow.add_node("llm_call", llm_call)
 
 # Define the execution flow
 workflow.set_entry_point("increment")
 workflow.add_edge("increment", "double")
 workflow.add_edge("double", "triple")
 workflow.add_edge("triple", "quadruple")
-workflow.add_edge("quadruple", END)
+workflow.add_edge("quadruple", "llm_call")
+workflow.add_edge("llm_call", END)
 
 # 6. Compile the graph properly with parentheses ()
 # (LangGraph platform handles persistence automatically, so no checkpointer is needed here)
@@ -87,3 +104,5 @@ if __name__ == "__main__":
     print(f"Values (.values): {snapshot.values}")
     print(f"Next Node (.next): {snapshot.next}")
     print("-" * 50)
+
+print()
