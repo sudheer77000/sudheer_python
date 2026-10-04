@@ -71,6 +71,8 @@ llama-cloud>=1.0
 cursor-sdk
 typesafe-sdk
 google-api-python-client
+dw-cli
+autobatcher
 
 # =========================
 # Documents / PDF
