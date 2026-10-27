@@ -41,6 +41,7 @@ langchain-qdrant
 langchain-tavily
 langchain-sarvam
 langchain-cerebras
+deepagents
 
 # =========================
 # LangGraph
@@ -101,6 +102,7 @@ wikipedia
 arxiv
 ipykernel
 youtube-transcript-api
+rich
 
 # =========================
 # Web / API
