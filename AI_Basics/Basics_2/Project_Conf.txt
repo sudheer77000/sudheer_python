@@ -103,6 +103,7 @@ arxiv
 ipykernel
 youtube-transcript-api
 rich
+psutil
 
 # =========================
 # Web / API
@@ -137,3 +138,8 @@ streamlit==1.41.1
 # Validation
 # =========================
 pydantic
+
+# =========================
+# mcp
+# =========================
+mcp
