@@ -16,7 +16,7 @@ console = Console()
 
 
 # Print text one word at a time
-def type_words(message, delay=0.18, style="cyan"):
+def type_words(message, delay=1, style="cyan"):
     for word in message.split():
         console.print(word, end=" ", style=style)
         time.sleep(delay)
@@ -40,9 +40,9 @@ class FraudState(TypedDict):
 def check_fraud(state: FraudState):
     amount = state["amount"]
 
-    if amount == 10000:
+    if amount >= 10000:
         status = "Rejected"
-    elif amount > 1000:
+    elif amount >= 1000:
         status = "Review"
     else:
         status = "Approved"
@@ -157,13 +157,13 @@ console.print(
 
 type_words(
     "Initializing fraud detection system...",
-    delay=0.12,
+    delay=0.3,
     style="cyan"
 )
 
 type_words(
     "Analyzing incoming transactions...",
-    delay=0.12,
+    delay=0.3,
     style="yellow"
 )
 
@@ -199,7 +199,7 @@ for item in results:
 
     type_words(
         f"{symbol} Account {account} status {status}",
-        delay=0.05,
+        delay=0.3,
         style=style
     )
 
