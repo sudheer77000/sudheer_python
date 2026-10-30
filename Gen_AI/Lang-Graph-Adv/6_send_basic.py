@@ -54,14 +54,15 @@ def printNameAge(state: parentState):
 
     table.add_column("Name", style="bold green")
     table.add_column("Age", justify="center", style="bold yellow")
-
+    print("=" * 60)
+    print("---- MainGraph ----")
     for person in state['nameAgeList']:
         table.add_row(
             person['name'],
             str(person['age'])
         )
     console.print(table)
-
+print("=" * 60)
 # Build Parent graph
 parentBuilder = StateGraph(parentState)
 parentBuilder.add_node("printNameAge", printNameAge)
@@ -71,6 +72,17 @@ parentBuilder.add_edge("printNameAge", END)
 
 parentGraph = parentBuilder.compile()
 
+# =================SubGraph Invoke ==========
+
+child_input_data = {"name": "Sudheer", "age": 38}
+
+result = childGraph.invoke(child_input_data)
+
+print("=" * 10)
+print("---- SubGraph ----")
+print(result)
+print("=" * 20)
+# =================Main Graph Invoke ==========
 
 # Input
 input_data = [
@@ -84,9 +96,3 @@ input_data = [
 parentGraph.invoke({
     "nameAgeList": input_data
 })
-
-child_input_data = {"name": "Sudheer", "age": 38}
-
-result = childGraph.invoke(child_input_data)
-
-print(result)
