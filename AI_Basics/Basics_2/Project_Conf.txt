@@ -104,6 +104,7 @@ ipykernel
 youtube-transcript-api
 rich
 psutil
+reportlab
 
 # =========================
 # Web / API
