@@ -144,3 +144,5 @@ pydantic
 # mcp
 # =========================
 mcp
+fastmcp
+langchain[mcp]
