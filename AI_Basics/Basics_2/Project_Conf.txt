@@ -151,3 +151,9 @@ pydantic>=2.7,<3
 mcp
 fastmcp
 langchain[mcp]
+
+# =========================
+# A2A
+# =========================
+a2a-sdk[http-server]>=1.0
+starlette
